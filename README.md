@@ -1,5 +1,8 @@
 # Ever Works — Organizations Catalog
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://makeapullrequest.com)
+
 Prebuilt **AI companies** for the [Ever Works](https://ever.works) platform: pick a
 company template when creating an Organization and get a ready-to-run org — teams,
 agents (arriving paused, you enable them), skills, starter projects and tasks — in one
@@ -68,5 +71,5 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md). Every PR runs `scripts/validate.mjs`
 
 ## License
 
-[MIT](./LICENSE) © Ever Works contributors. Individual companies may carry additional
-attribution in their `COMPANY.md` `metadata.sources`.
+[MIT](./LICENSE) © Ever Co. LTD & contributors.  
+Individual companies may carry additional attribution in their `COMPANY.md` `metadata.sources`.
