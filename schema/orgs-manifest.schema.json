@@ -26,7 +26,12 @@
 					"projects": { "type": "integer", "minimum": 0, "maximum": 2 },
 					"avatarIcon": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
 					"tags": { "type": "array", "items": { "type": "string", "maxLength": 60 }, "maxItems": 8 },
-					"featured": { "type": "boolean" }
+					"featured": { "type": "boolean" },
+					"files": {
+						"type": "array",
+						"items": { "type": "string", "pattern": "^[A-Za-z0-9._][A-Za-z0-9._/-]*$", "maxLength": 200 },
+						"maxItems": 400
+					}
 				}
 			}
 		}

@@ -19,6 +19,30 @@
 				"featured",
 				"general"
 			],
+			"files": [
+				".everworks.yaml",
+				"COMPANY.md",
+				"README.md",
+				"agents/ceo/AGENTS.md",
+				"agents/coder/AGENTS.md",
+				"agents/copywriter/AGENTS.md",
+				"agents/marketer/AGENTS.md",
+				"agents/pm/AGENTS.md",
+				"agents/researcher/AGENTS.md",
+				"agents/sales/AGENTS.md",
+				"agents/support/AGENTS.md",
+				"images/org-chart.svg",
+				"projects/first-launch/PROJECT.md",
+				"projects/first-launch/tasks/draft-landing-copy/TASK.md",
+				"projects/first-launch/tasks/plan-mvp/TASK.md",
+				"projects/first-launch/tasks/research-competitors/TASK.md",
+				"skills/customer-voice/SKILL.md",
+				"skills/idea-triage/SKILL.md",
+				"skills/launch-checklist/SKILL.md",
+				"skills/weekly-status-report/SKILL.md",
+				"teams/growth/TEAM.md",
+				"teams/product/TEAM.md"
+			],
 			"featured": true
 		},
 		{
@@ -35,6 +59,27 @@
 			"tags": [
 				"engineering",
 				"full-stack"
+			],
+			"files": [
+				".everworks.yaml",
+				"COMPANY.md",
+				"README.md",
+				"agents/backend-engineer/AGENTS.md",
+				"agents/ceo/AGENTS.md",
+				"agents/cto/AGENTS.md",
+				"agents/devops-engineer/AGENTS.md",
+				"agents/frontend-engineer/AGENTS.md",
+				"agents/qa-engineer/AGENTS.md",
+				"agents/security-reviewer/AGENTS.md",
+				"images/org-chart.svg",
+				"projects/platform-hardening/PROJECT.md",
+				"projects/platform-hardening/tasks/add-smoke-tests/TASK.md",
+				"projects/platform-hardening/tasks/audit-dependencies/TASK.md",
+				"skills/code-review-standards/SKILL.md",
+				"skills/incident-response/SKILL.md",
+				"skills/release-process/SKILL.md",
+				"teams/engineering/TEAM.md",
+				"teams/quality/TEAM.md"
 			]
 		},
 		{
@@ -52,6 +97,23 @@
 				"creative",
 				"marketing",
 				"brand"
+			],
+			"files": [
+				".everworks.yaml",
+				"COMPANY.md",
+				"README.md",
+				"agents/art-director/AGENTS.md",
+				"agents/brand-strategist/AGENTS.md",
+				"agents/copywriter/AGENTS.md",
+				"agents/creative-director/AGENTS.md",
+				"agents/motion-designer/AGENTS.md",
+				"agents/social-media-manager/AGENTS.md",
+				"images/org-chart.svg",
+				"skills/brand-voice-guide/SKILL.md",
+				"skills/campaign-brief/SKILL.md",
+				"skills/content-calendar/SKILL.md",
+				"teams/production/TEAM.md",
+				"teams/strategy/TEAM.md"
 			]
 		},
 		{
@@ -68,6 +130,23 @@
 			"tags": [
 				"security",
 				"audit"
+			],
+			"files": [
+				".everworks.yaml",
+				"COMPANY.md",
+				"README.md",
+				"agents/appsec-auditor/AGENTS.md",
+				"agents/ciso/AGENTS.md",
+				"agents/infra-auditor/AGENTS.md",
+				"agents/pentest-planner/AGENTS.md",
+				"agents/report-writer/AGENTS.md",
+				"agents/threat-modeler/AGENTS.md",
+				"images/org-chart.svg",
+				"skills/audit-scoping/SKILL.md",
+				"skills/finding-writeup/SKILL.md",
+				"skills/threat-modeling/SKILL.md",
+				"teams/advisory/TEAM.md",
+				"teams/audit/TEAM.md"
 			]
 		},
 		{
@@ -85,6 +164,21 @@
 				"engineering",
 				"tdd",
 				"quality"
+			],
+			"files": [
+				".everworks.yaml",
+				"COMPANY.md",
+				"README.md",
+				"agents/ceo/AGENTS.md",
+				"agents/code-reviewer/AGENTS.md",
+				"agents/lead-engineer/AGENTS.md",
+				"agents/qa-analyst/AGENTS.md",
+				"agents/release-engineer/AGENTS.md",
+				"images/org-chart.svg",
+				"skills/definition-of-done/SKILL.md",
+				"skills/systematic-debugging/SKILL.md",
+				"skills/test-driven-development/SKILL.md",
+				"teams/delivery/TEAM.md"
 			]
 		},
 		{
@@ -101,6 +195,22 @@
 			"tags": [
 				"finance",
 				"research"
+			],
+			"files": [
+				".everworks.yaml",
+				"COMPANY.md",
+				"README.md",
+				"agents/cio/AGENTS.md",
+				"agents/equity-analyst/AGENTS.md",
+				"agents/macro-analyst/AGENTS.md",
+				"agents/memo-writer/AGENTS.md",
+				"agents/quant-researcher/AGENTS.md",
+				"agents/risk-officer/AGENTS.md",
+				"images/org-chart.svg",
+				"skills/research-memo/SKILL.md",
+				"skills/risk-review/SKILL.md",
+				"teams/research/TEAM.md",
+				"teams/risk/TEAM.md"
 			]
 		},
 		{
@@ -117,6 +227,23 @@
 			"tags": [
 				"research",
 				"analysis"
+			],
+			"files": [
+				".everworks.yaml",
+				"COMPANY.md",
+				"README.md",
+				"agents/chief-scientist/AGENTS.md",
+				"agents/data-analyst/AGENTS.md",
+				"agents/lab-coordinator/AGENTS.md",
+				"agents/literature-reviewer/AGENTS.md",
+				"agents/methodology-critic/AGENTS.md",
+				"agents/science-writer/AGENTS.md",
+				"images/org-chart.svg",
+				"skills/data-analysis-brief/SKILL.md",
+				"skills/literature-review/SKILL.md",
+				"skills/peer-review-checklist/SKILL.md",
+				"teams/publications/TEAM.md",
+				"teams/research/TEAM.md"
 			]
 		},
 		{
@@ -134,6 +261,23 @@
 				"product",
 				"consulting",
 				"strategy"
+			],
+			"files": [
+				".everworks.yaml",
+				"COMPANY.md",
+				"README.md",
+				"agents/managing-partner/AGENTS.md",
+				"agents/market-analyst/AGENTS.md",
+				"agents/pricing-analyst/AGENTS.md",
+				"agents/product-strategist/AGENTS.md",
+				"agents/roadmap-planner/AGENTS.md",
+				"agents/ux-researcher/AGENTS.md",
+				"images/org-chart.svg",
+				"skills/discovery-interview-guide/SKILL.md",
+				"skills/pricing-review/SKILL.md",
+				"skills/prioritization-framework/SKILL.md",
+				"teams/delivery/TEAM.md",
+				"teams/discovery/TEAM.md"
 			]
 		},
 		{
@@ -150,6 +294,26 @@
 			"tags": [
 				"games",
 				"creative"
+			],
+			"files": [
+				".everworks.yaml",
+				"COMPANY.md",
+				"README.md",
+				"agents/art-director/AGENTS.md",
+				"agents/game-designer/AGENTS.md",
+				"agents/gameplay-programmer/AGENTS.md",
+				"agents/level-designer/AGENTS.md",
+				"agents/pixel-artist/AGENTS.md",
+				"agents/qa-tester/AGENTS.md",
+				"agents/sound-designer/AGENTS.md",
+				"agents/studio-director/AGENTS.md",
+				"images/org-chart.svg",
+				"skills/game-design-doc/SKILL.md",
+				"skills/pixel-art-style-guide/SKILL.md",
+				"skills/playtest-report/SKILL.md",
+				"teams/art-audio/TEAM.md",
+				"teams/design/TEAM.md",
+				"teams/engineering/TEAM.md"
 			]
 		},
 		{
@@ -166,6 +330,21 @@
 			"tags": [
 				"code-review",
 				"quality"
+			],
+			"files": [
+				".everworks.yaml",
+				"COMPANY.md",
+				"README.md",
+				"agents/architecture-reviewer/AGENTS.md",
+				"agents/chief-reviewer/AGENTS.md",
+				"agents/docs-reviewer/AGENTS.md",
+				"agents/performance-reviewer/AGENTS.md",
+				"agents/security-reviewer/AGENTS.md",
+				"images/org-chart.svg",
+				"skills/performance-review-checklist/SKILL.md",
+				"skills/review-report-format/SKILL.md",
+				"skills/security-review-checklist/SKILL.md",
+				"teams/review/TEAM.md"
 			]
 		}
 	]

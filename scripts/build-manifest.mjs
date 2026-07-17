@@ -11,6 +11,24 @@ const COMPANIES_DIR = join(ROOT, 'companies');
 const listDirs = (dir) =>
 	existsSync(dir) ? readdirSync(dir).filter((d) => statSync(join(dir, d)).isDirectory()) : [];
 
+// Recursive file inventory (repo-relative, forward slashes) so importers can
+// fetch a whole package via single-file contents-API reads — no directory
+// listing or clone required. Images and vendor files are included; importers
+// filter what they need.
+const listFilesRecursive = (dir, base) => {
+	if (!existsSync(dir)) return [];
+	const out = [];
+	for (const entry of readdirSync(dir)) {
+		const full = join(dir, entry);
+		if (statSync(full).isDirectory()) {
+			out.push(...listFilesRecursive(full, `${base}${entry}/`));
+		} else {
+			out.push(`${base}${entry}`);
+		}
+	}
+	return out.sort();
+};
+
 const fm = (file) => {
 	const m = /^---\r?\n([\s\S]*?)\r?\n---/.exec(readFileSync(file, 'utf8'));
 	return m ? parseYaml(m[1]) : null;
@@ -35,6 +53,7 @@ const companies = listDirs(COMPANIES_DIR).map((slug) => {
 		...counts,
 		avatarIcon: ew.catalog?.avatarIcon ?? 'building-2',
 		tags: ew.catalog?.tags ?? [],
+		files: listFilesRecursive(dir, ''),
 	};
 	if (ew.catalog?.featured) entry.featured = true;
 	return entry;
