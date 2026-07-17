@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 520" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title>Storefront Ops — org chart</title>
+  <style>
+    .node { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; rx: 10; }
+    .root { fill: #4f46e5; stroke: #4f46e5; }
+    .mgr { stroke: #4f46e5; }
+    .edge { fill: none; stroke: #94a3b8; stroke-width: 1.5; }
+    .name { font-size: 13px; font-weight: 600; fill: #1e293b; text-anchor: middle; }
+    .title { font-size: 11px; fill: #64748b; text-anchor: middle; }
+    .rootname { fill: #ffffff; }
+    .roottitle { fill: #c7d2fe; }
+  </style>
+
+  <!-- edges: founder -> row 2 -->
+  <path class="edge" d="M530 76 V112"/>
+  <path class="edge" d="M130 112 H930"/>
+  <path class="edge" d="M130 112 V150"/>
+  <path class="edge" d="M330 112 V150"/>
+  <path class="edge" d="M530 112 V150"/>
+  <path class="edge" d="M730 112 V150"/>
+  <path class="edge" d="M930 112 V150"/>
+
+  <!-- edges: marketing-director -> growth team (vertical spine with elbows) -->
+  <path class="edge" d="M130 202 V450"/>
+  <path class="edge" d="M130 264 H150"/>
+  <path class="edge" d="M130 326 H150"/>
+  <path class="edge" d="M130 388 H150"/>
+  <path class="edge" d="M130 450 H150"/>
+
+  <!-- root -->
+  <rect class="node root" x="430" y="24" width="200" height="52" rx="10"/>
+  <text class="name rootname" x="530" y="46">Rowan Voss</text>
+  <text class="title roottitle" x="530" y="63">Founder &amp; CEO</text>
+
+  <!-- row 2: direct reports to founder -->
+  <rect class="node mgr" x="42" y="150" width="176" height="52" rx="10"/>
+  <text class="name" x="130" y="172">Amara Quist</text>
+  <text class="title" x="130" y="189">Marketing Director</text>
+
+  <rect class="node mgr" x="242" y="150" width="176" height="52" rx="10"/>
+  <text class="name" x="330" y="172">Elif Kaya</text>
+  <text class="title" x="330" y="189">Merchandising &amp; Pricing</text>
+
+  <rect class="node" x="442" y="150" width="176" height="52" rx="10"/>
+  <text class="name" x="530" y="172">Marcus Boone</text>
+  <text class="title" x="530" y="189">Customer Support Lead</text>
+
+  <rect class="node" x="642" y="150" width="176" height="52" rx="10"/>
+  <text class="name" x="730" y="172">Greta Lindqvist</text>
+  <text class="title" x="730" y="189">Inventory &amp; Supply Planner</text>
+
+  <rect class="node" x="842" y="150" width="176" height="52" rx="10"/>
+  <text class="name" x="930" y="172">Priya Nair</text>
+  <text class="title" x="930" y="189">Commerce Analytics Lead</text>
+
+  <!-- row 3: growth team under marketing director -->
+  <rect class="node" x="150" y="240" width="200" height="48" rx="10"/>
+  <text class="name" x="250" y="260">Jonas Feld</text>
+  <text class="title" x="250" y="277">Commerce Content Creator</text>
+
+  <rect class="node" x="150" y="302" width="200" height="48" rx="10"/>
+  <text class="name" x="250" y="322">Lila Moreau</text>
+  <text class="title" x="250" y="339">Social Media Manager</text>
+
+  <rect class="node" x="150" y="364" width="200" height="48" rx="10"/>
+  <text class="name" x="250" y="384">Tomas Rivera</text>
+  <text class="title" x="250" y="401">Lifecycle &amp; Email Lead</text>
+
+  <rect class="node" x="150" y="426" width="200" height="48" rx="10"/>
+  <text class="name" x="250" y="446">Nadia Petrov</text>
+  <text class="title" x="250" y="463">Paid Media Lead</text>
+</svg>

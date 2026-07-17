@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1638 400" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+  <style>
+    .node { fill: #f8f9fc; stroke: #c7cbe0; stroke-width: 1.5; }
+    .root { fill: #4f46e5; stroke: #4f46e5; }
+    .lead { fill: #eef0fb; stroke: #4f46e5; stroke-width: 1.5; }
+    .name { font-size: 13px; font-weight: 600; fill: #1f2333; }
+    .title { font-size: 9.5px; fill: #5a5f73; }
+    .rootname { fill: #ffffff; }
+    .roottitle { fill: #dcdcfb; }
+    .link { fill: none; stroke: #4f46e5; stroke-width: 1.5; }
+  </style>
+
+  <!-- connectors: root to level-2 -->
+  <path class="link" d="M819,84 V127"/>
+  <path class="link" d="M199,127 H1524"/>
+  <path class="link" d="M199,127 V170"/>
+  <path class="link" d="M539,127 V170"/>
+  <path class="link" d="M879,127 V170"/>
+  <path class="link" d="M1219,127 V170"/>
+  <path class="link" d="M1524,127 V170"/>
+
+  <!-- connectors: leads to auditors -->
+  <path class="link" d="M199,224 V267 M114,267 H284 M114,267 V310 M284,267 V310"/>
+  <path class="link" d="M539,224 V267 M454,267 H624 M454,267 V310 M624,267 V310"/>
+  <path class="link" d="M879,224 V267 M794,267 H964 M794,267 V310 M964,267 V310"/>
+  <path class="link" d="M1219,224 V267 M1134,267 H1304 M1134,267 V310 M1304,267 V310"/>
+
+  <!-- root -->
+  <g>
+    <rect class="node root" x="745" y="30" width="148" height="54" rx="8"/>
+    <text class="name rootname" x="819" y="52" text-anchor="middle">Cassian Reyes</text>
+    <text class="title roottitle" x="819" y="68" text-anchor="middle">Managing Director</text>
+  </g>
+
+  <!-- level 2: practice leads + report editor -->
+  <g>
+    <rect class="node lead" x="125" y="170" width="148" height="54" rx="8"/>
+    <text class="name" x="199" y="192" text-anchor="middle">Odette Maren</text>
+    <text class="title" x="199" y="208" text-anchor="middle">Smart Contract Lead</text>
+  </g>
+  <g>
+    <rect class="node lead" x="465" y="170" width="148" height="54" rx="8"/>
+    <text class="name" x="539" y="192" text-anchor="middle">Tobias Grunewald</text>
+    <text class="title" x="539" y="208" text-anchor="middle">Cryptography Lead</text>
+  </g>
+  <g>
+    <rect class="node lead" x="805" y="170" width="148" height="54" rx="8"/>
+    <text class="name" x="879" y="192" text-anchor="middle">Dagny Holt</text>
+    <text class="title" x="879" y="208" text-anchor="middle">Systems Security Lead</text>
+  </g>
+  <g>
+    <rect class="node lead" x="1145" y="170" width="148" height="54" rx="8"/>
+    <text class="name" x="1219" y="192" text-anchor="middle">Leontine Abara</text>
+    <text class="title" x="1219" y="208" text-anchor="middle">App Security Lead</text>
+  </g>
+  <g>
+    <rect class="node lead" x="1450" y="170" width="148" height="54" rx="8"/>
+    <text class="name" x="1524" y="192" text-anchor="middle">Beatrix Hollen</text>
+    <text class="title" x="1524" y="208" text-anchor="middle">Head of Reporting</text>
+  </g>
+
+  <!-- level 3: auditors -->
+  <g>
+    <rect class="node" x="40" y="310" width="148" height="54" rx="8"/>
+    <text class="name" x="114" y="332" text-anchor="middle">Milo Vantar</text>
+    <text class="title" x="114" y="348" text-anchor="middle">Contract Auditor</text>
+  </g>
+  <g>
+    <rect class="node" x="210" y="310" width="148" height="54" rx="8"/>
+    <text class="name" x="284" y="332" text-anchor="middle">Priya Sundaram</text>
+    <text class="title" x="284" y="348" text-anchor="middle">Invariant Engineer</text>
+  </g>
+  <g>
+    <rect class="node" x="380" y="310" width="148" height="54" rx="8"/>
+    <text class="name" x="454" y="332" text-anchor="middle">Anselm Vry</text>
+    <text class="title" x="454" y="348" text-anchor="middle">Crypto Design Auditor</text>
+  </g>
+  <g>
+    <rect class="node" x="550" y="310" width="148" height="54" rx="8"/>
+    <text class="name" x="624" y="332" text-anchor="middle">Katsuo Rendel</text>
+    <text class="title" x="624" y="348" text-anchor="middle">Side-Channel Analyst</text>
+  </g>
+  <g>
+    <rect class="node" x="720" y="310" width="148" height="54" rx="8"/>
+    <text class="name" x="794" y="332" text-anchor="middle">Rurik Vane</text>
+    <text class="title" x="794" y="348" text-anchor="middle">Binary Reverse Eng.</text>
+  </g>
+  <g>
+    <rect class="node" x="890" y="310" width="148" height="54" rx="8"/>
+    <text class="name" x="964" y="332" text-anchor="middle">Ingrid Soll</text>
+    <text class="title" x="964" y="348" text-anchor="middle">Firmware Analyst</text>
+  </g>
+  <g>
+    <rect class="node" x="1060" y="310" width="148" height="54" rx="8"/>
+    <text class="name" x="1134" y="332" text-anchor="middle">Nadia Frost</text>
+    <text class="title" x="1134" y="348" text-anchor="middle">Code Auditor</text>
+  </g>
+  <g>
+    <rect class="node" x="1230" y="310" width="148" height="54" rx="8"/>
+    <text class="name" x="1304" y="332" text-anchor="middle">Emeric Köhler</text>
+    <text class="title" x="1304" y="348" text-anchor="middle">Fuzzing Engineer</text>
+  </g>
+</svg>

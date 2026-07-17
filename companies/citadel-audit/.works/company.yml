@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: security
+  avatarIcon: lock
+  tags: [security, audit, verification]

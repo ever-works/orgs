@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 356" role="img" aria-label="Stackwise Engineering org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; }
+    .root { fill: #4f46e5; stroke: #4f46e5; stroke-width: 1.5; }
+    .name { font: 600 13px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #1f2937; }
+    .title { font: 400 10.5px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #6b7280; }
+    .name-inv { font: 600 13px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #ffffff; }
+    .title-inv { font: 400 10.5px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #e0e7ff; }
+    .link { stroke: #4f46e5; stroke-opacity: 0.5; stroke-width: 1.5; fill: none; }
+  </style>
+
+  <!-- connectors -->
+  <line class="link" x1="350" y1="84" x2="350" y2="150"/>
+  <path class="link" d="M350 204 V240 H130 V270"/>
+  <line class="link" x1="350" y1="204" x2="350" y2="270"/>
+  <path class="link" d="M350 204 V240 H570 V270"/>
+
+  <!-- ceo -->
+  <rect class="root" x="270" y="30" width="160" height="54" rx="10"/>
+  <text class="name-inv" x="350" y="52" text-anchor="middle">Corin Vale</text>
+  <text class="title-inv" x="350" y="70" text-anchor="middle">Chief Executive Officer</text>
+
+  <!-- cto -->
+  <rect class="node" x="270" y="150" width="160" height="54" rx="10"/>
+  <text class="name" x="350" y="172" text-anchor="middle">Amara Whitfield</text>
+  <text class="title" x="350" y="190" text-anchor="middle">Chief Technology Officer</text>
+
+  <!-- staff-engineer -->
+  <rect class="node" x="50" y="270" width="160" height="54" rx="10"/>
+  <text class="name" x="130" y="292" text-anchor="middle">Jonah Petridis</text>
+  <text class="title" x="130" y="310" text-anchor="middle">Staff Engineer</text>
+
+  <!-- release-engineer -->
+  <rect class="node" x="270" y="270" width="160" height="54" rx="10"/>
+  <text class="name" x="350" y="292" text-anchor="middle">Ilse Marchetti</text>
+  <text class="title" x="350" y="310" text-anchor="middle">Release Engineer</text>
+
+  <!-- qa-engineer -->
+  <rect class="node" x="490" y="270" width="160" height="54" rx="10"/>
+  <text class="name" x="570" y="292" text-anchor="middle">Ren Okabe</text>
+  <text class="title" x="570" y="310" text-anchor="middle">QA Engineer</text>
+</svg>

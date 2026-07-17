@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="Relay Engineering org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; rx: 10; }
+    .root { fill: #4f46e5; stroke: #4f46e5; }
+    .name { font: 600 13px system-ui, sans-serif; fill: #111827; text-anchor: middle; }
+    .title { font: 400 11px system-ui, sans-serif; fill: #6b7280; text-anchor: middle; }
+    .root-name { fill: #ffffff; }
+    .root-title { fill: #c7d2fe; }
+    .edge { stroke: #a5b4fc; stroke-width: 1.5; fill: none; }
+  </style>
+
+  <!-- edges -->
+  <path class="edge" d="M360 80 V128" />
+  <path class="edge" d="M360 186 V216 H130 V244" />
+  <path class="edge" d="M360 186 V244" />
+  <path class="edge" d="M360 186 V216 H590 V244" />
+
+  <!-- CEO (root) -->
+  <rect class="node root" x="270" y="24" width="180" height="56" rx="10" />
+  <text class="name root-name" x="360" y="48">Mara Voss</text>
+  <text class="title root-title" x="360" y="66">Chief Executive Officer</text>
+
+  <!-- Planner -->
+  <rect class="node" x="270" y="130" width="180" height="56" rx="10" />
+  <text class="name" x="360" y="154">Iris Ochoa</text>
+  <text class="title" x="360" y="172">Head of Planning &amp; Delivery</text>
+
+  <!-- Builder -->
+  <rect class="node" x="40" y="244" width="180" height="56" rx="10" />
+  <text class="name" x="130" y="268">Theo Marsh</text>
+  <text class="title" x="130" y="286">Implementation Engineer</text>
+
+  <!-- Reviewer -->
+  <rect class="node" x="270" y="244" width="180" height="56" rx="10" />
+  <text class="name" x="360" y="268">Priya Nair</text>
+  <text class="title" x="360" y="286">Review &amp; Quality Engineer</text>
+
+  <!-- Shipper -->
+  <rect class="node" x="500" y="244" width="180" height="56" rx="10" />
+  <text class="name" x="590" y="268">Jonas Kalu</text>
+  <text class="title" x="590" y="286">Release Engineer</text>
+</svg>

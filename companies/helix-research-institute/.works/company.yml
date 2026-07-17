@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: research
+  avatarIcon: dna
+  tags: [science, research, analysis]

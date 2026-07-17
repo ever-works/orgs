@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: media
+  avatarIcon: clapperboard
+  tags: [short-form-video, youtube-shorts, content-ops, analytics]

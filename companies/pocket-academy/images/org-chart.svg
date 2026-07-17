@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 430" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <!-- root: ceo -->
+  <rect x="380" y="30" width="200" height="64" rx="10" fill="#4f46e5"/>
+  <text x="480" y="57" text-anchor="middle" font-size="15" font-weight="600" fill="#ffffff">Noor</text>
+  <text x="480" y="78" text-anchor="middle" font-size="11" fill="#c7d2fe">Chief Executive Officer</text>
+
+  <!-- elbow connectors: ceo -> heads -->
+  <g fill="none" stroke="#a5b4fc" stroke-width="1.5">
+    <path d="M480 94 V140"/>
+    <path d="M180 140 H790"/>
+    <path d="M180 140 V180"/>
+    <path d="M480 140 V180"/>
+    <path d="M790 140 V180"/>
+  </g>
+
+  <!-- heads -->
+  <g>
+    <rect x="90" y="180" width="180" height="64" rx="10" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="180" y="207" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Maren</text>
+    <text x="180" y="227" text-anchor="middle" font-size="10.5" fill="#6366f1">Head of Learning</text>
+  </g>
+  <g>
+    <rect x="390" y="180" width="180" height="64" rx="10" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="480" y="207" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Callum</text>
+    <text x="480" y="227" text-anchor="middle" font-size="10.5" fill="#6366f1">Head of Growth</text>
+  </g>
+  <g>
+    <rect x="700" y="180" width="180" height="64" rx="10" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="790" y="207" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Ravi</text>
+    <text x="790" y="227" text-anchor="middle" font-size="10.5" fill="#6366f1">Head of Platform</text>
+  </g>
+
+  <!-- elbow connectors: heads -> reports -->
+  <g fill="none" stroke="#a5b4fc" stroke-width="1.5">
+    <path d="M180 244 V290"/>
+    <path d="M90 290 H270"/>
+    <path d="M90 290 V330"/>
+    <path d="M270 290 V330"/>
+    <path d="M480 244 V330"/>
+    <path d="M790 244 V330"/>
+  </g>
+
+  <!-- reports -->
+  <g>
+    <rect x="5" y="330" width="170" height="64" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="90" y="357" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Tobin</text>
+    <text x="90" y="377" text-anchor="middle" font-size="10.5" fill="#6366f1">Micro-Lesson Writer</text>
+  </g>
+  <g>
+    <rect x="185" y="330" width="170" height="64" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="270" y="357" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Isla</text>
+    <text x="270" y="377" text-anchor="middle" font-size="10.5" fill="#6366f1">Assessment Designer</text>
+  </g>
+  <g>
+    <rect x="395" y="330" width="170" height="64" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="480" y="357" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Zadie</text>
+    <text x="480" y="377" text-anchor="middle" font-size="10.5" fill="#6366f1">Outreach Copywriter</text>
+  </g>
+  <g>
+    <rect x="705" y="330" width="170" height="64" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="790" y="357" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Juno</text>
+    <text x="790" y="377" text-anchor="middle" font-size="10.5" fill="#6366f1">Bot Reliability Operator</text>
+  </g>
+</svg>

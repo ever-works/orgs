@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: creative
+  avatarIcon: clapperboard
+  tags: [studio, apps, media]

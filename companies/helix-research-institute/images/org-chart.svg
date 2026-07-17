@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" role="img" aria-label="Helix Research Institute org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; }
+    .name { font: 600 12.5px system-ui, sans-serif; fill: #111827; text-anchor: middle; }
+    .title { font: 400 10px system-ui, sans-serif; fill: #6b7280; text-anchor: middle; }
+    .link { fill: none; stroke: #4f46e5; stroke-width: 1.5; }
+  </style>
+
+  <!-- director to program leads -->
+  <path class="link" d="M457 70 V95" />
+  <path class="link" d="M105 95 H809" />
+  <path class="link" d="M105 95 V120" />
+  <path class="link" d="M281 95 V120" />
+  <path class="link" d="M457 95 V120" />
+  <path class="link" d="M633 95 V120" />
+  <path class="link" d="M809 95 V120" />
+
+  <!-- Bioinformatics Lead to reports -->
+  <path class="link" d="M105 166 V188 H15" />
+  <path class="link" d="M15 188 V393" />
+  <path class="link" d="M15 233 H25" />
+  <path class="link" d="M15 313 H25" />
+  <path class="link" d="M15 393 H25" />
+
+  <!-- Drug Discovery Lead to reports -->
+  <path class="link" d="M281 166 V188 H191" />
+  <path class="link" d="M191 188 V393" />
+  <path class="link" d="M191 233 H201" />
+  <path class="link" d="M191 313 H201" />
+  <path class="link" d="M191 393 H201" />
+
+  <!-- Clinical Research Lead to reports -->
+  <path class="link" d="M457 166 V188 H367" />
+  <path class="link" d="M367 188 V393" />
+  <path class="link" d="M367 233 H377" />
+  <path class="link" d="M367 313 H377" />
+  <path class="link" d="M367 393 H377" />
+
+  <!-- Materials Science Lead to reports -->
+  <path class="link" d="M633 166 V188 H543" />
+  <path class="link" d="M543 188 V393" />
+  <path class="link" d="M543 233 H553" />
+  <path class="link" d="M543 313 H553" />
+  <path class="link" d="M543 393 H553" />
+
+  <!-- Sci. Communication Lead to reports -->
+  <path class="link" d="M809 166 V188 H719" />
+  <path class="link" d="M719 188 V393" />
+  <path class="link" d="M719 233 H729" />
+  <path class="link" d="M719 313 H729" />
+  <path class="link" d="M719 393 H729" />
+
+  <!-- root -->
+  <rect class="node" x="377" y="24" width="160" height="46" rx="10" />
+  <text class="name" x="457" y="44">Dr. Selene Marchetti</text>
+  <text class="title" x="457" y="60">Institute Director</text>
+  <!-- Bioinformatics Lead column -->
+  <rect class="node" x="25" y="120" width="160" height="46" rx="10" />
+  <text class="name" x="105" y="140">Dr. Rasmus Dahl</text>
+  <text class="title" x="105" y="156">Bioinformatics Lead</text>
+  <rect class="node" x="25" y="210" width="160" height="46" rx="10" />
+  <text class="name" x="105" y="230">Dr. Idris Bello</text>
+  <text class="title" x="105" y="246">Genomics Analyst</text>
+  <rect class="node" x="25" y="290" width="160" height="46" rx="10" />
+  <text class="name" x="105" y="310">Dr. Hana Cho</text>
+  <text class="title" x="105" y="326">Single-Cell Scientist</text>
+  <rect class="node" x="25" y="370" width="160" height="46" rx="10" />
+  <text class="name" x="105" y="390">Dr. Bruno Ferreira</text>
+  <text class="title" x="105" y="406">Phylogenetics Researcher</text>
+  <!-- Drug Discovery Lead column -->
+  <rect class="node" x="201" y="120" width="160" height="46" rx="10" />
+  <text class="name" x="281" y="140">Dr. Ananya Iyer</text>
+  <text class="title" x="281" y="156">Drug Discovery Lead</text>
+  <rect class="node" x="201" y="210" width="160" height="46" rx="10" />
+  <text class="name" x="281" y="230">Dr. Leila Nasser</text>
+  <text class="title" x="281" y="246">Cheminformatics Scientist</text>
+  <rect class="node" x="201" y="290" width="160" height="46" rx="10" />
+  <text class="name" x="281" y="310">Dr. Viktor Sokolov</text>
+  <text class="title" x="281" y="326">Molecular Docking Specialist</text>
+  <rect class="node" x="201" y="370" width="160" height="46" rx="10" />
+  <text class="name" x="281" y="390">Dr. Priyanka Rao</text>
+  <text class="title" x="281" y="406">Compound Screening Analyst</text>
+  <!-- Clinical Research Lead column -->
+  <rect class="node" x="377" y="120" width="160" height="46" rx="10" />
+  <text class="name" x="457" y="140">Dr. Mateo Delgado</text>
+  <text class="title" x="457" y="156">Clinical Research Lead</text>
+  <rect class="node" x="377" y="210" width="160" height="46" rx="10" />
+  <text class="name" x="457" y="230">Dr. Noa Steinberg</text>
+  <text class="title" x="457" y="246">Clinical Data Scientist</text>
+  <rect class="node" x="377" y="290" width="160" height="46" rx="10" />
+  <text class="name" x="457" y="310">Dr. Kofi Mensah</text>
+  <text class="title" x="457" y="326">Precision Medicine Analyst</text>
+  <rect class="node" x="377" y="370" width="160" height="46" rx="10" />
+  <text class="name" x="457" y="390">Dr. Elena Popescu</text>
+  <text class="title" x="457" y="406">Trial Design Reviewer</text>
+  <!-- Materials Science Lead column -->
+  <rect class="node" x="553" y="120" width="160" height="46" rx="10" />
+  <text class="name" x="633" y="140">Dr. Wei-Lin Ong</text>
+  <text class="title" x="633" y="156">Materials Science Lead</text>
+  <rect class="node" x="553" y="210" width="160" height="46" rx="10" />
+  <text class="name" x="633" y="230">Dr. Takara Ito</text>
+  <text class="title" x="633" y="246">Computational Materials Sci.</text>
+  <rect class="node" x="553" y="290" width="160" height="46" rx="10" />
+  <text class="name" x="633" y="310">Dr. Samuel Boateng</text>
+  <text class="title" x="633" y="326">Molecular Simulation Sci.</text>
+  <rect class="node" x="553" y="370" width="160" height="46" rx="10" />
+  <text class="name" x="633" y="390">Dr. Clara Nilsson</text>
+  <text class="title" x="633" y="406">Materials Informatics Analyst</text>
+  <!-- Sci. Communication Lead column -->
+  <rect class="node" x="729" y="120" width="160" height="46" rx="10" />
+  <text class="name" x="809" y="140">Dr. Freya Lindholm</text>
+  <text class="title" x="809" y="156">Sci. Communication Lead</text>
+  <rect class="node" x="729" y="210" width="160" height="46" rx="10" />
+  <text class="name" x="809" y="230">Dr. Julien Rousseau</text>
+  <text class="title" x="809" y="246">Manuscript Writer</text>
+  <rect class="node" x="729" y="290" width="160" height="46" rx="10" />
+  <text class="name" x="809" y="310">Dr. Mira Kovač</text>
+  <text class="title" x="809" y="326">Scientific Figure Designer</text>
+  <rect class="node" x="729" y="370" width="160" height="46" rx="10" />
+  <text class="name" x="809" y="390">Dr. Adaeze Nwankwo</text>
+  <text class="title" x="809" y="406">Research Editor</text>
+</svg>

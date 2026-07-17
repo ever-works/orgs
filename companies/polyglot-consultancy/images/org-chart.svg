@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 440" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <style>
+    .node { fill: #ffffff; stroke: #d1d5db; stroke-width: 1.25; }
+    .lead { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.25; }
+    .exec { fill: #eef2ff; stroke: #4f46e5; stroke-width: 1.5; }
+    .name { font-size: 12px; font-weight: 600; fill: #111827; text-anchor: middle; }
+    .role { font-size: 9.5px; fill: #6b7280; text-anchor: middle; }
+    .wire { fill: none; stroke: #9ca3af; stroke-width: 1.25; }
+  </style>
+  <rect x="0" y="0" width="1300" height="440" fill="#ffffff"/>
+
+  <!-- connectors -->
+  <path class="wire" d="M661 62 V96"/>
+  <path class="wire" d="M661 142 V158"/>
+  <path class="wire" d="M121 158 H1201"/>
+  <path class="wire" d="M121 158 V176"/>
+  <path class="wire" d="M301 158 V176"/>
+  <path class="wire" d="M481 158 V176"/>
+  <path class="wire" d="M661 158 V176"/>
+  <path class="wire" d="M841 158 V176"/>
+  <path class="wire" d="M1021 158 V176"/>
+  <path class="wire" d="M1201 158 V176"/>
+  <!-- backend rail -->
+  <path class="wire" d="M121 222 V232 H36 V391"/>
+  <path class="wire" d="M36 275 H46"/>
+  <path class="wire" d="M36 333 H46"/>
+  <path class="wire" d="M36 391 H46"/>
+  <!-- frontend-mobile rail -->
+  <path class="wire" d="M301 222 V232 H216 V391"/>
+  <path class="wire" d="M216 275 H226"/>
+  <path class="wire" d="M216 333 H226"/>
+  <path class="wire" d="M216 391 H226"/>
+  <!-- platform-devops rail -->
+  <path class="wire" d="M481 222 V232 H396 V391"/>
+  <path class="wire" d="M396 275 H406"/>
+  <path class="wire" d="M396 333 H406"/>
+  <path class="wire" d="M396 391 H406"/>
+  <!-- data rail -->
+  <path class="wire" d="M661 222 V232 H576 V391"/>
+  <path class="wire" d="M576 275 H586"/>
+  <path class="wire" d="M576 333 H586"/>
+  <path class="wire" d="M576 391 H586"/>
+  <!-- quality rail -->
+  <path class="wire" d="M841 222 V232 H756 V333"/>
+  <path class="wire" d="M756 275 H766"/>
+  <path class="wire" d="M756 333 H766"/>
+
+  <!-- executives -->
+  <rect class="exec" x="586" y="16" width="150" height="46" rx="10"/>
+  <text class="name" x="661" y="35">Adaeze Okafor</text>
+  <text class="role" x="661" y="50">Chief Executive Officer</text>
+
+  <rect class="exec" x="586" y="96" width="150" height="46" rx="10"/>
+  <text class="name" x="661" y="115">Marek Zielinski</text>
+  <text class="role" x="661" y="130">Chief Technology Officer</text>
+
+  <!-- leads and architecture team -->
+  <rect class="lead" x="46" y="176" width="150" height="46" rx="10"/>
+  <text class="name" x="121" y="195">Rosa Ferreira</text>
+  <text class="role" x="121" y="210">Backend Lead</text>
+
+  <rect class="lead" x="226" y="176" width="150" height="46" rx="10"/>
+  <text class="name" x="301" y="195">Jonas Lindqvist</text>
+  <text class="role" x="301" y="210">Frontend &amp; Mobile Lead</text>
+
+  <rect class="lead" x="406" y="176" width="150" height="46" rx="10"/>
+  <text class="name" x="481" y="195">Ingrid Halvorsen</text>
+  <text class="role" x="481" y="210">Platform &amp; DevOps Lead</text>
+
+  <rect class="lead" x="586" y="176" width="150" height="46" rx="10"/>
+  <text class="name" x="661" y="195">Tomas Barta</text>
+  <text class="role" x="661" y="210">Data Lead</text>
+
+  <rect class="lead" x="766" y="176" width="150" height="46" rx="10"/>
+  <text class="name" x="841" y="195">Amara Diallo</text>
+  <text class="role" x="841" y="210">Quality Lead</text>
+
+  <rect class="node" x="946" y="176" width="150" height="46" rx="10"/>
+  <text class="name" x="1021" y="195">Yusuf Demir</text>
+  <text class="role" x="1021" y="210">Solutions Architect</text>
+
+  <rect class="node" x="1126" y="176" width="150" height="46" rx="10"/>
+  <text class="name" x="1201" y="195">Petra Novak</text>
+  <text class="role" x="1201" y="210">Security Reviewer</text>
+
+  <!-- backend specialists -->
+  <rect class="node" x="46" y="252" width="150" height="46" rx="10"/>
+  <text class="name" x="121" y="271">Callum Reid</text>
+  <text class="role" x="121" y="286">Go Engineer</text>
+
+  <rect class="node" x="46" y="310" width="150" height="46" rx="10"/>
+  <text class="name" x="121" y="329">Leila Haddad</text>
+  <text class="role" x="121" y="344">Python Engineer</text>
+
+  <rect class="node" x="46" y="368" width="150" height="46" rx="10"/>
+  <text class="name" x="121" y="387">Diego Salazar</text>
+  <text class="role" x="121" y="402">Node.js Engineer</text>
+
+  <!-- frontend-mobile specialists -->
+  <rect class="node" x="226" y="252" width="150" height="46" rx="10"/>
+  <text class="name" x="301" y="271">Hana Sato</text>
+  <text class="role" x="301" y="286">React Engineer</text>
+
+  <rect class="node" x="226" y="310" width="150" height="46" rx="10"/>
+  <text class="name" x="301" y="329">Nikola Petrovic</text>
+  <text class="role" x="301" y="344">Vue Engineer</text>
+
+  <rect class="node" x="226" y="368" width="150" height="46" rx="10"/>
+  <text class="name" x="301" y="387">Fatima Zahra</text>
+  <text class="role" x="301" y="402">Mobile Engineer</text>
+
+  <!-- platform-devops specialists -->
+  <rect class="node" x="406" y="252" width="150" height="46" rx="10"/>
+  <text class="name" x="481" y="271">Owen Gallagher</text>
+  <text class="role" x="481" y="286">Cloud Engineer</text>
+
+  <rect class="node" x="406" y="310" width="150" height="46" rx="10"/>
+  <text class="name" x="481" y="329">Priya Raman</text>
+  <text class="role" x="481" y="344">CI/CD Engineer</text>
+
+  <rect class="node" x="406" y="368" width="150" height="46" rx="10"/>
+  <text class="name" x="481" y="387">Emil Johansson</text>
+  <text class="role" x="481" y="402">Site Reliability Engineer</text>
+
+  <!-- data specialists -->
+  <rect class="node" x="586" y="252" width="150" height="46" rx="10"/>
+  <text class="name" x="661" y="271">Greta Keller</text>
+  <text class="role" x="661" y="286">Analytics Engineer</text>
+
+  <rect class="node" x="586" y="310" width="150" height="46" rx="10"/>
+  <text class="name" x="661" y="329">Mateo Rossi</text>
+  <text class="role" x="661" y="344">Database Engineer</text>
+
+  <rect class="node" x="586" y="368" width="150" height="46" rx="10"/>
+  <text class="name" x="661" y="387">Sofia Marques</text>
+  <text class="role" x="661" y="402">ML Engineer</text>
+
+  <!-- quality specialists -->
+  <rect class="node" x="766" y="252" width="150" height="46" rx="10"/>
+  <text class="name" x="841" y="271">Andrei Popescu</text>
+  <text class="role" x="841" y="286">Test Automation Engineer</text>
+
+  <rect class="node" x="766" y="310" width="150" height="46" rx="10"/>
+  <text class="name" x="841" y="329">Wei Chen</text>
+  <text class="role" x="841" y="344">Performance Engineer</text>
+</svg>

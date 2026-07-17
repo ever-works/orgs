@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <style>
+    .node { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; rx: 10; }
+    .root { stroke: #4f46e5; stroke-width: 2; }
+    .name { font-size: 13px; font-weight: 600; fill: #1e293b; text-anchor: middle; }
+    .title { font-size: 11px; fill: #64748b; text-anchor: middle; }
+    .edge { stroke: #94a3b8; stroke-width: 1.5; fill: none; }
+    .accent { fill: #4f46e5; }
+  </style>
+
+  <!-- connectors -->
+  <path class="edge" d="M380 84 V140" />
+  <path class="edge" d="M92 140 H668" />
+  <path class="edge" d="M92 140 V200" />
+  <path class="edge" d="M284 140 V200" />
+  <path class="edge" d="M476 140 V200" />
+  <path class="edge" d="M668 140 V200" />
+
+  <!-- root: director -->
+  <rect class="node root" x="270" y="24" width="220" height="60" rx="10" />
+  <rect class="accent" x="270" y="24" width="220" height="4" rx="2" />
+  <text class="name" x="380" y="50">Rhea Solano</text>
+  <text class="title" x="380" y="68">Intelligence Director</text>
+
+  <!-- research-analyst -->
+  <rect class="node" x="6" y="200" width="172" height="60" rx="10" />
+  <text class="name" x="92" y="226">Ivo Marchetti</text>
+  <text class="title" x="92" y="244">Research Analyst</text>
+
+  <!-- signals-engineer -->
+  <rect class="node" x="198" y="200" width="172" height="60" rx="10" />
+  <text class="name" x="284" y="226">Tamsin Okafor</text>
+  <text class="title" x="284" y="244">Signals Engineer</text>
+
+  <!-- market-watcher -->
+  <rect class="node" x="390" y="200" width="172" height="60" rx="10" />
+  <text class="name" x="476" y="226">Callum Reyes</text>
+  <text class="title" x="476" y="244">Market Watcher</text>
+
+  <!-- ops-assistant -->
+  <rect class="node" x="582" y="200" width="172" height="60" rx="10" />
+  <text class="name" x="668" y="226">Priya Anand</text>
+  <text class="title" x="668" y="244">Operations Assistant</text>
+</svg>

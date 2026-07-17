@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title>GreenRoute Home Services — org chart</title>
+
+  <!-- connectors: root -> bus -> children (elbows) -->
+  <g fill="none" stroke="#c7c9f4" stroke-width="1.5">
+    <path d="M480 88 V150" />
+    <path d="M85 150 H875" />
+    <path d="M85 150 V190" />
+    <path d="M243 150 V190" />
+    <path d="M401 150 V190" />
+    <path d="M559 150 V190" />
+    <path d="M717 150 V190" />
+    <path d="M875 150 V190" />
+  </g>
+
+  <!-- root -->
+  <g>
+    <rect x="408" y="32" width="144" height="56" rx="10" fill="#4f46e5" />
+    <text x="480" y="56" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">Harper</text>
+    <text x="480" y="74" text-anchor="middle" font-size="9.5" fill="#e0e0fb">Operations Director</text>
+  </g>
+
+  <!-- children -->
+  <g>
+    <rect x="13" y="190" width="144" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="85" y="214" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2430">Mason</text>
+    <text x="85" y="232" text-anchor="middle" font-size="9.5" fill="#6b7280">Platform Engineer</text>
+  </g>
+  <g>
+    <rect x="171" y="190" width="144" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="243" y="214" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2430">Reyes</text>
+    <text x="243" y="232" text-anchor="middle" font-size="9.5" fill="#6b7280">CRM &amp; Scheduling Specialist</text>
+  </g>
+  <g>
+    <rect x="329" y="190" width="144" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="401" y="214" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2430">Wren</text>
+    <text x="401" y="232" text-anchor="middle" font-size="9.5" fill="#6b7280">Customer Communications Lead</text>
+  </g>
+  <g>
+    <rect x="487" y="190" width="144" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="559" y="214" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2430">Sloane</text>
+    <text x="559" y="232" text-anchor="middle" font-size="9.5" fill="#6b7280">Local Marketing Lead</text>
+  </g>
+  <g>
+    <rect x="645" y="190" width="144" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="717" y="214" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2430">Finch</text>
+    <text x="717" y="232" text-anchor="middle" font-size="9.5" fill="#6b7280">Market Intelligence Analyst</text>
+  </g>
+  <g>
+    <rect x="803" y="190" width="144" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="875" y="214" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2430">Tally</text>
+    <text x="875" y="232" text-anchor="middle" font-size="9.5" fill="#6b7280">Revenue Analyst</text>
+  </g>
+</svg>

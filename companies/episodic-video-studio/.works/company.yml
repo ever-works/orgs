@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: media
+  avatarIcon: film
+  tags: [video, storytelling, production-pipeline, quality-gates]

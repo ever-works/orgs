@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 250" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Prism Digital Studio — org chart -->
+  <g fill="none" stroke="#4f46e5" stroke-width="1.5">
+    <path d="M440 88 V124 H117.5 V166" />
+    <path d="M440 88 V124 H332.5 V166" />
+    <path d="M440 88 V124 H547.5 V166" />
+    <path d="M440 88 V124 H762.5 V166" />
+  </g>
+
+  <!-- Studio Lead (root) -->
+  <g>
+    <rect x="342.5" y="30" width="195" height="58" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="440" y="55" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Rowan Idlewild</text>
+    <text x="440" y="73" text-anchor="middle" font-size="11" fill="#6b7280">Studio Lead</text>
+  </g>
+
+  <!-- Producer -->
+  <g>
+    <rect x="20" y="166" width="195" height="58" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="117.5" y="191" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Maren Solis</text>
+    <text x="117.5" y="209" text-anchor="middle" font-size="11" fill="#6b7280">Producer</text>
+  </g>
+
+  <!-- App Builder -->
+  <g>
+    <rect x="235" y="166" width="195" height="58" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="332.5" y="191" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Idris Vale</text>
+    <text x="332.5" y="209" text-anchor="middle" font-size="11" fill="#6b7280">App Builder</text>
+  </g>
+
+  <!-- VFX Artist -->
+  <g>
+    <rect x="450" y="166" width="195" height="58" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="547.5" y="191" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Noa Lindqvist</text>
+    <text x="547.5" y="209" text-anchor="middle" font-size="11" fill="#6b7280">VFX Artist</text>
+  </g>
+
+  <!-- Document Producer -->
+  <g>
+    <rect x="665" y="166" width="195" height="58" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="762.5" y="191" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Tomas Ferreira</text>
+    <text x="762.5" y="209" text-anchor="middle" font-size="11" fill="#6b7280">Document Producer</text>
+  </g>
+</svg>

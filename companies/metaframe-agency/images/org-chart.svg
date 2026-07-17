@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 344" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title>Metaframe Agency org chart</title>
+  <g fill="none" stroke="#4f46e5" stroke-width="1.5">
+    <path d="M380 80 V112"/>
+    <path d="M140 112 H620"/>
+    <path d="M140 112 V144"/>
+    <path d="M380 112 V144"/>
+    <path d="M620 112 V144"/>
+    <path d="M140 200 V264"/>
+    <path d="M380 200 V264"/>
+  </g>
+  <g>
+    <rect x="290" y="24" width="180" height="56" rx="10" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="380" y="47" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Iris Calloway</text>
+    <text x="380" y="65" text-anchor="middle" font-size="11" fill="#6366f1">Principal</text>
+  </g>
+  <g>
+    <rect x="50" y="144" width="180" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+    <text x="140" y="167" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Tomas Ferreira</text>
+    <text x="140" y="185" text-anchor="middle" font-size="11" fill="#64748b">Frameworks Lead</text>
+  </g>
+  <g>
+    <rect x="290" y="144" width="180" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+    <text x="380" y="167" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Amara Diallo</text>
+    <text x="380" y="185" text-anchor="middle" font-size="11" fill="#64748b">Research Methodologist</text>
+  </g>
+  <g>
+    <rect x="530" y="144" width="180" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+    <text x="620" y="167" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Elena Vargas</text>
+    <text x="620" y="185" text-anchor="middle" font-size="11" fill="#64748b">Facilitator</text>
+  </g>
+  <g>
+    <rect x="50" y="264" width="180" height="56" rx="10" fill="#ffffff" stroke="#c7d2fe" stroke-width="1.2"/>
+    <text x="140" y="287" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Jonas Lindqvist</text>
+    <text x="140" y="305" text-anchor="middle" font-size="11" fill="#64748b">Workflow Optimizer</text>
+  </g>
+  <g>
+    <rect x="290" y="264" width="180" height="56" rx="10" fill="#ffffff" stroke="#c7d2fe" stroke-width="1.2"/>
+    <text x="380" y="287" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Saoirse Byrne</text>
+    <text x="380" y="305" text-anchor="middle" font-size="11" fill="#64748b">Insight Writer</text>
+  </g>
+</svg>

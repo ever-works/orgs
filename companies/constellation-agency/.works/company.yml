@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: agency
+  avatarIcon: sparkles
+  tags: [agency, divisions, full-service]

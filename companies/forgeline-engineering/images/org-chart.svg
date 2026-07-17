@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 216" role="img" aria-label="Forgeline Engineering org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; }
+    .root { fill: #4f46e5; stroke: #4f46e5; }
+    .name { font: 600 13px system-ui, sans-serif; fill: #111827; text-anchor: middle; }
+    .title { font: 400 11px system-ui, sans-serif; fill: #6b7280; text-anchor: middle; }
+    .root-name { fill: #ffffff; }
+    .root-title { fill: #c7d2fe; }
+    .edge { stroke: #a5b4fc; stroke-width: 1.5; fill: none; }
+  </style>
+
+  <!-- edges (elbow connectors from tech-lead to each report) -->
+  <path class="edge" d="M480 80 V106 H110 V132" />
+  <path class="edge" d="M480 80 V106 H356 V132" />
+  <path class="edge" d="M480 80 V106 H604 V132" />
+  <path class="edge" d="M480 80 V106 H850 V132" />
+
+  <!-- Tech Lead (root) -->
+  <rect class="node root" x="390" y="24" width="180" height="56" rx="10" />
+  <text class="name root-name" x="480" y="48">Elias Ward</text>
+  <text class="title root-title" x="480" y="66">Tech Lead</text>
+
+  <!-- Backend Developer -->
+  <rect class="node" x="20" y="132" width="180" height="56" rx="10" />
+  <text class="name" x="110" y="156">Sofia Marchetti</text>
+  <text class="title" x="110" y="174">Backend Developer</text>
+
+  <!-- Frontend Developer -->
+  <rect class="node" x="266" y="132" width="180" height="56" rx="10" />
+  <text class="name" x="356" y="156">Yusuf Adeyemi</text>
+  <text class="title" x="356" y="174">Frontend Developer</text>
+
+  <!-- QA Engineer -->
+  <rect class="node" x="514" y="132" width="180" height="56" rx="10" />
+  <text class="name" x="604" y="156">Petra Lindqvist</text>
+  <text class="title" x="604" y="174">QA Engineer</text>
+
+  <!-- DevOps Engineer -->
+  <rect class="node" x="760" y="132" width="180" height="56" rx="10" />
+  <text class="name" x="850" y="156">Ines Duarte</text>
+  <text class="title" x="850" y="174">DevOps Engineer</text>
+</svg>

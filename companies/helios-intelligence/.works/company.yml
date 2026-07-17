@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: research
+  avatarIcon: radar
+  tags: [intelligence, research, automation]

@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: engineering
+  avatarIcon: workflow
+  tags: [engineering, lifecycle, automation]

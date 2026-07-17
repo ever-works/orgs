@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: marketing
+  avatarIcon: megaphone
+  tags: [marketing, content, seo, social-media, growth, branding]

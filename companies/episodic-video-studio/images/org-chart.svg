@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 920" role="img" aria-label="Episodic Video Studio org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; }
+    .root { fill: #4f46e5; stroke: #4f46e5; stroke-width: 1.5; }
+    .name { font: 600 13px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #1f2937; }
+    .title { font: 400 10.5px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #6b7280; }
+    .name-inv { font: 600 13px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #ffffff; }
+    .title-inv { font: 400 10.5px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #e0e7ff; }
+    .link { stroke: #4f46e5; stroke-opacity: 0.5; stroke-width: 1.5; fill: none; }
+  </style>
+
+  <!-- root to level-1 connectors -->
+  <path class="link" d="M620 78 V104"/>
+  <path class="link" d="M132 104 H1108"/>
+  <path class="link" d="M132 104 V130"/>
+  <path class="link" d="M376 104 V130"/>
+  <path class="link" d="M620 104 V130"/>
+  <path class="link" d="M864 104 V130"/>
+  <path class="link" d="M1108 104 V130"/>
+
+  <!-- production office spine -->
+  <path class="link" d="M52 180 V295"/>
+  <path class="link" d="M52 231 H66"/>
+  <path class="link" d="M52 295 H66"/>
+
+  <!-- creative branch spine -->
+  <path class="link" d="M296 180 V871"/>
+  <path class="link" d="M296 231 H310"/>
+  <path class="link" d="M296 463 H310"/>
+  <path class="link" d="M296 639 H310"/>
+  <path class="link" d="M296 871 H310"/>
+  <!-- head-writer reports -->
+  <path class="link" d="M324 254 V403"/>
+  <path class="link" d="M324 291 H338"/>
+  <path class="link" d="M324 347 H338"/>
+  <path class="link" d="M324 403 H338"/>
+  <!-- story-lead reports -->
+  <path class="link" d="M324 486 V579"/>
+  <path class="link" d="M324 523 H338"/>
+  <path class="link" d="M324 579 H338"/>
+  <!-- visual-director reports -->
+  <path class="link" d="M324 662 V811"/>
+  <path class="link" d="M324 699 H338"/>
+  <path class="link" d="M324 755 H338"/>
+  <path class="link" d="M324 811 H338"/>
+
+  <!-- post-production spine -->
+  <path class="link" d="M540 180 V359"/>
+  <path class="link" d="M540 231 H554"/>
+  <path class="link" d="M540 295 H554"/>
+  <path class="link" d="M540 359 H554"/>
+
+  <!-- quality spine -->
+  <path class="link" d="M784 180 V359"/>
+  <path class="link" d="M784 231 H798"/>
+  <path class="link" d="M784 295 H798"/>
+  <path class="link" d="M784 359 H798"/>
+
+  <!-- distribution spine -->
+  <path class="link" d="M1028 180 V295"/>
+  <path class="link" d="M1028 231 H1042"/>
+  <path class="link" d="M1028 295 H1042"/>
+
+  <!-- showrunner (root) -->
+  <rect class="root" x="526" y="28" width="188" height="50" rx="10"/>
+  <text class="name-inv" x="620" y="48" text-anchor="middle">Rhea Calloway</text>
+  <text class="title-inv" x="620" y="66" text-anchor="middle">Showrunner</text>
+
+  <!-- executive-producer -->
+  <rect class="node" x="38" y="130" width="188" height="50" rx="10"/>
+  <text class="name" x="132" y="150" text-anchor="middle">Dominic Ferrar</text>
+  <text class="title" x="132" y="168" text-anchor="middle">Executive Producer</text>
+
+  <!-- creative-director -->
+  <rect class="node" x="282" y="130" width="188" height="50" rx="10"/>
+  <text class="name" x="376" y="150" text-anchor="middle">Isadora Venn</text>
+  <text class="title" x="376" y="168" text-anchor="middle">Creative Director</text>
+
+  <!-- post-production-lead -->
+  <rect class="node" x="526" y="130" width="188" height="50" rx="10"/>
+  <text class="name" x="620" y="150" text-anchor="middle">Marcus Delgado</text>
+  <text class="title" x="620" y="168" text-anchor="middle">Post-Production Lead</text>
+
+  <!-- quality-director -->
+  <rect class="node" x="770" y="130" width="188" height="50" rx="10"/>
+  <text class="name" x="864" y="150" text-anchor="middle">Viktor Andrade</text>
+  <text class="title" x="864" y="168" text-anchor="middle">Quality Director</text>
+
+  <!-- distribution-lead -->
+  <rect class="node" x="1014" y="130" width="188" height="50" rx="10"/>
+  <text class="name" x="1108" y="150" text-anchor="middle">Cora Maddox</text>
+  <text class="title" x="1108" y="168" text-anchor="middle">Distribution Lead</text>
+
+  <!-- production-scheduler -->
+  <rect class="node" x="66" y="208" width="160" height="46" rx="9"/>
+  <text class="name" x="146" y="227" text-anchor="middle">Tessa Nyberg</text>
+  <text class="title" x="146" y="243" text-anchor="middle">Production Scheduler</text>
+
+  <!-- asset-coordinator -->
+  <rect class="node" x="66" y="272" width="160" height="46" rx="9"/>
+  <text class="name" x="146" y="291" text-anchor="middle">Bruno Okafor</text>
+  <text class="title" x="146" y="307" text-anchor="middle">Asset Coordinator</text>
+
+  <!-- head-writer -->
+  <rect class="node" x="310" y="208" width="160" height="46" rx="9"/>
+  <text class="name" x="390" y="227" text-anchor="middle">Caleb Moreau</text>
+  <text class="title" x="390" y="243" text-anchor="middle">Head Writer</text>
+
+  <!-- dialogue-writer -->
+  <rect class="node" x="338" y="268" width="146" height="46" rx="9"/>
+  <text class="name" x="411" y="287" text-anchor="middle">Juniper Falk</text>
+  <text class="title" x="411" y="303" text-anchor="middle">Dialogue Writer</text>
+
+  <!-- script-doctor -->
+  <rect class="node" x="338" y="324" width="146" height="46" rx="9"/>
+  <text class="name" x="411" y="343" text-anchor="middle">Ansel Petrov</text>
+  <text class="title" x="411" y="359" text-anchor="middle">Script Doctor</text>
+
+  <!-- pacing-analyst -->
+  <rect class="node" x="338" y="380" width="146" height="46" rx="9"/>
+  <text class="name" x="411" y="399" text-anchor="middle">Mira Sandoval</text>
+  <text class="title" x="411" y="415" text-anchor="middle">Pacing Analyst</text>
+
+  <!-- story-lead -->
+  <rect class="node" x="310" y="440" width="160" height="46" rx="9"/>
+  <text class="name" x="390" y="459" text-anchor="middle">Elliot Varga</text>
+  <text class="title" x="390" y="475" text-anchor="middle">Story Lead</text>
+
+  <!-- character-director -->
+  <rect class="node" x="338" y="500" width="146" height="46" rx="9"/>
+  <text class="name" x="411" y="519" text-anchor="middle">Noor Hadid</text>
+  <text class="title" x="411" y="535" text-anchor="middle">Character Director</text>
+
+  <!-- lore-researcher -->
+  <rect class="node" x="338" y="556" width="146" height="46" rx="9"/>
+  <text class="name" x="411" y="575" text-anchor="middle">Fenwick Osei</text>
+  <text class="title" x="411" y="591" text-anchor="middle">Lore Researcher</text>
+
+  <!-- visual-director -->
+  <rect class="node" x="310" y="616" width="160" height="46" rx="9"/>
+  <text class="name" x="390" y="635" text-anchor="middle">Sabine Roux</text>
+  <text class="title" x="390" y="651" text-anchor="middle">Visual Director</text>
+
+  <!-- cinematography-designer -->
+  <rect class="node" x="338" y="676" width="146" height="46" rx="9"/>
+  <text class="name" x="411" y="695" text-anchor="middle">Idris Malone</text>
+  <text class="title" x="411" y="711" text-anchor="middle">Cinematography Designer</text>
+
+  <!-- storyboard-artist -->
+  <rect class="node" x="338" y="732" width="146" height="46" rx="9"/>
+  <text class="name" x="411" y="751" text-anchor="middle">Paloma Reyes</text>
+  <text class="title" x="411" y="767" text-anchor="middle">Storyboard Artist</text>
+
+  <!-- visual-prompt-engineer -->
+  <rect class="node" x="338" y="788" width="146" height="46" rx="9"/>
+  <text class="name" x="411" y="807" text-anchor="middle">Kellan Voss</text>
+  <text class="title" x="411" y="823" text-anchor="middle">Visual Prompt Engineer</text>
+
+  <!-- music-director -->
+  <rect class="node" x="310" y="848" width="160" height="46" rx="9"/>
+  <text class="name" x="390" y="867" text-anchor="middle">Ottilie Braun</text>
+  <text class="title" x="390" y="883" text-anchor="middle">Music Director</text>
+
+  <!-- editor -->
+  <rect class="node" x="554" y="208" width="160" height="46" rx="9"/>
+  <text class="name" x="634" y="227" text-anchor="middle">Freya Lindqvist</text>
+  <text class="title" x="634" y="243" text-anchor="middle">Editor</text>
+
+  <!-- audio-engineer -->
+  <rect class="node" x="554" y="272" width="160" height="46" rx="9"/>
+  <text class="name" x="634" y="291" text-anchor="middle">Silas Kwon</text>
+  <text class="title" x="634" y="307" text-anchor="middle">Audio Engineer</text>
+
+  <!-- continuity-supervisor -->
+  <rect class="node" x="554" y="336" width="160" height="46" rx="9"/>
+  <text class="name" x="634" y="355" text-anchor="middle">Agnes Whitmore</text>
+  <text class="title" x="634" y="371" text-anchor="middle">Continuity Supervisor</text>
+
+  <!-- narrative-qa -->
+  <rect class="node" x="798" y="208" width="160" height="46" rx="9"/>
+  <text class="name" x="878" y="227" text-anchor="middle">Lena Brooks</text>
+  <text class="title" x="878" y="243" text-anchor="middle">Narrative QA Reviewer</text>
+
+  <!-- visual-qa -->
+  <rect class="node" x="798" y="272" width="160" height="46" rx="9"/>
+  <text class="name" x="878" y="291" text-anchor="middle">Tomas Iversen</text>
+  <text class="title" x="878" y="307" text-anchor="middle">Visual QA Reviewer</text>
+
+  <!-- release-qa -->
+  <rect class="node" x="798" y="336" width="160" height="46" rx="9"/>
+  <text class="name" x="878" y="355" text-anchor="middle">Priya Raman</text>
+  <text class="title" x="878" y="371" text-anchor="middle">Release QA Reviewer</text>
+
+  <!-- platform-strategist -->
+  <rect class="node" x="1042" y="208" width="160" height="46" rx="9"/>
+  <text class="name" x="1122" y="227" text-anchor="middle">Julian Weiss</text>
+  <text class="title" x="1122" y="243" text-anchor="middle">Platform Strategist</text>
+
+  <!-- retention-optimizer -->
+  <rect class="node" x="1042" y="272" width="160" height="46" rx="9"/>
+  <text class="name" x="1122" y="291" text-anchor="middle">Zadie Fontaine</text>
+  <text class="title" x="1122" y="307" text-anchor="middle">Retention Optimizer</text>
+</svg>

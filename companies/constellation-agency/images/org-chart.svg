@@ -1,0 +1,187 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 656" role="img" aria-label="Constellation Agency org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; }
+    .root { fill: #4f46e5; stroke: #4f46e5; stroke-width: 1.5; }
+    .name { font: 600 11.5px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #1f2937; }
+    .title { font: 400 9px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #6b7280; }
+    .name-inv { font: 600 12px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #ffffff; }
+    .title-inv { font: 400 9.5px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #e0e7ff; }
+    .link { stroke: #4f46e5; stroke-opacity: 0.5; stroke-width: 1.25; fill: none; }
+  </style>
+
+  <path class="link" d="M450 64 V88 H110 V110"/>
+  <path class="link" d="M450 64 V88 H280 V110"/>
+  <line class="link" x1="450" y1="64" x2="450" y2="110"/>
+  <path class="link" d="M450 64 V88 H620 V110"/>
+  <path class="link" d="M450 64 V88 H790 V110"/>
+  <path class="link" d="M450 64 V88 H20 V378"/>
+  <path class="link" d="M20 378 H110 V400"/>
+  <path class="link" d="M20 378 H280 V400"/>
+  <path class="link" d="M20 378 H450 V400"/>
+  <path class="link" d="M20 378 H620 V400"/>
+  <path class="link" d="M20 378 H790 V400"/>
+  <path class="link" d="M46 154 V317"/>
+  <path class="link" d="M46 209 H58"/>
+  <path class="link" d="M46 263 H58"/>
+  <path class="link" d="M46 317 H58"/>
+  <path class="link" d="M216 154 V317"/>
+  <path class="link" d="M216 209 H228"/>
+  <path class="link" d="M216 263 H228"/>
+  <path class="link" d="M216 317 H228"/>
+  <path class="link" d="M386 154 V317"/>
+  <path class="link" d="M386 209 H398"/>
+  <path class="link" d="M386 263 H398"/>
+  <path class="link" d="M386 317 H398"/>
+  <path class="link" d="M556 154 V317"/>
+  <path class="link" d="M556 209 H568"/>
+  <path class="link" d="M556 263 H568"/>
+  <path class="link" d="M556 317 H568"/>
+  <path class="link" d="M726 154 V317"/>
+  <path class="link" d="M726 209 H738"/>
+  <path class="link" d="M726 263 H738"/>
+  <path class="link" d="M726 317 H738"/>
+  <path class="link" d="M46 444 V607"/>
+  <path class="link" d="M46 499 H58"/>
+  <path class="link" d="M46 553 H58"/>
+  <path class="link" d="M46 607 H58"/>
+  <path class="link" d="M216 444 V607"/>
+  <path class="link" d="M216 499 H228"/>
+  <path class="link" d="M216 553 H228"/>
+  <path class="link" d="M216 607 H228"/>
+  <path class="link" d="M386 444 V607"/>
+  <path class="link" d="M386 499 H398"/>
+  <path class="link" d="M386 553 H398"/>
+  <path class="link" d="M386 607 H398"/>
+  <path class="link" d="M556 444 V607"/>
+  <path class="link" d="M556 499 H568"/>
+  <path class="link" d="M556 553 H568"/>
+  <path class="link" d="M556 607 H568"/>
+  <path class="link" d="M726 444 V607"/>
+  <path class="link" d="M726 499 H738"/>
+  <path class="link" d="M726 553 H738"/>
+  <path class="link" d="M726 607 H738"/>
+
+  <rect class="root" x="375" y="20" width="150" height="44" rx="9"/>
+  <text class="name-inv" x="450" y="38" text-anchor="middle">Adriana Solari</text>
+  <text class="title-inv" x="450" y="52" text-anchor="middle">Chief Executive Officer</text>
+  <rect class="node" x="35" y="110" width="150" height="44" rx="9"/>
+  <text class="name" x="110" y="128" text-anchor="middle">Tomas Lindqvist</text>
+  <text class="title" x="110" y="142" text-anchor="middle">Director of Engineering</text>
+  <rect class="node" x="58" y="188" width="128" height="42" rx="9"/>
+  <text class="name" x="122" y="206" text-anchor="middle">Ifeoma Adeyemi</text>
+  <text class="title" x="122" y="220" text-anchor="middle">Backend Architect</text>
+  <rect class="node" x="58" y="242" width="128" height="42" rx="9"/>
+  <text class="name" x="122" y="260" text-anchor="middle">Lucas Marek</text>
+  <text class="title" x="122" y="274" text-anchor="middle">Frontend Engineer</text>
+  <rect class="node" x="58" y="296" width="128" height="42" rx="9"/>
+  <text class="name" x="122" y="314" text-anchor="middle">Sable Ortiz</text>
+  <text class="title" x="122" y="328" text-anchor="middle">DevOps Engineer</text>
+  <rect class="node" x="205" y="110" width="150" height="44" rx="9"/>
+  <text class="name" x="280" y="128" text-anchor="middle">Noa Berkovich</text>
+  <text class="title" x="280" y="142" text-anchor="middle">Design Director</text>
+  <rect class="node" x="228" y="188" width="128" height="42" rx="9"/>
+  <text class="name" x="292" y="206" text-anchor="middle">Priit Kask</text>
+  <text class="title" x="292" y="220" text-anchor="middle">UX Architect</text>
+  <rect class="node" x="228" y="242" width="128" height="42" rx="9"/>
+  <text class="name" x="292" y="260" text-anchor="middle">Mireille Chandra</text>
+  <text class="title" x="292" y="274" text-anchor="middle">UI Designer</text>
+  <rect class="node" x="228" y="296" width="128" height="42" rx="9"/>
+  <text class="name" x="292" y="314" text-anchor="middle">Ezra Coleman</text>
+  <text class="title" x="292" y="328" text-anchor="middle">Brand Designer</text>
+  <rect class="node" x="375" y="110" width="150" height="44" rx="9"/>
+  <text class="name" x="450" y="128" text-anchor="middle">Katarina Volkov</text>
+  <text class="title" x="450" y="142" text-anchor="middle">Marketing Director</text>
+  <rect class="node" x="398" y="188" width="128" height="42" rx="9"/>
+  <text class="name" x="462" y="206" text-anchor="middle">Dario Ferrante</text>
+  <text class="title" x="462" y="220" text-anchor="middle">Content Strategist</text>
+  <rect class="node" x="398" y="242" width="128" height="42" rx="9"/>
+  <text class="name" x="462" y="260" text-anchor="middle">Wren Nakamura</text>
+  <text class="title" x="462" y="274" text-anchor="middle">SEO Specialist</text>
+  <rect class="node" x="398" y="296" width="128" height="42" rx="9"/>
+  <text class="name" x="462" y="314" text-anchor="middle">Amara Diallo</text>
+  <text class="title" x="462" y="328" text-anchor="middle">Paid Media Strategist</text>
+  <rect class="node" x="545" y="110" width="150" height="44" rx="9"/>
+  <text class="name" x="620" y="128" text-anchor="middle">Hana Strand</text>
+  <text class="title" x="620" y="142" text-anchor="middle">Product Director</text>
+  <rect class="node" x="568" y="188" width="128" height="42" rx="9"/>
+  <text class="name" x="632" y="206" text-anchor="middle">Oliver Reyes</text>
+  <text class="title" x="632" y="220" text-anchor="middle">Product Manager</text>
+  <rect class="node" x="568" y="242" width="128" height="42" rx="9"/>
+  <text class="name" x="632" y="260" text-anchor="middle">Ingrid Falk</text>
+  <text class="title" x="632" y="274" text-anchor="middle">Delivery Producer</text>
+  <rect class="node" x="568" y="296" width="128" height="42" rx="9"/>
+  <text class="name" x="632" y="314" text-anchor="middle">Ravi Menon</text>
+  <text class="title" x="632" y="328" text-anchor="middle">User Insights Analyst</text>
+  <rect class="node" x="715" y="110" width="150" height="44" rx="9"/>
+  <text class="name" x="790" y="128" text-anchor="middle">Miles Okonkwo</text>
+  <text class="title" x="790" y="142" text-anchor="middle">Sales Director</text>
+  <rect class="node" x="738" y="188" width="128" height="42" rx="9"/>
+  <text class="name" x="802" y="206" text-anchor="middle">Petra Havel</text>
+  <text class="title" x="802" y="220" text-anchor="middle">Outbound Strategist</text>
+  <rect class="node" x="738" y="242" width="128" height="42" rx="9"/>
+  <text class="name" x="802" y="260" text-anchor="middle">Jonas Iversen</text>
+  <text class="title" x="802" y="274" text-anchor="middle">Sales Engineer</text>
+  <rect class="node" x="738" y="296" width="128" height="42" rx="9"/>
+  <text class="name" x="802" y="314" text-anchor="middle">Celeste Duran</text>
+  <text class="title" x="802" y="328" text-anchor="middle">Pipeline Analyst</text>
+  <rect class="node" x="35" y="400" width="150" height="44" rx="9"/>
+  <text class="name" x="110" y="418" text-anchor="middle">Anouk Visser</text>
+  <text class="title" x="110" y="432" text-anchor="middle">QA Director</text>
+  <rect class="node" x="58" y="478" width="128" height="42" rx="9"/>
+  <text class="name" x="122" y="496" text-anchor="middle">Felix Grau</text>
+  <text class="title" x="122" y="510" text-anchor="middle">API Test Engineer</text>
+  <rect class="node" x="58" y="532" width="128" height="42" rx="9"/>
+  <text class="name" x="122" y="550" text-anchor="middle">Leila Haddad</text>
+  <text class="title" x="122" y="564" text-anchor="middle">Performance Analyst</text>
+  <rect class="node" x="58" y="586" width="128" height="42" rx="9"/>
+  <text class="name" x="122" y="604" text-anchor="middle">Bram Peeters</text>
+  <text class="title" x="122" y="618" text-anchor="middle">Accessibility Auditor</text>
+  <rect class="node" x="205" y="400" width="150" height="44" rx="9"/>
+  <text class="name" x="280" y="418" text-anchor="middle">Sofia Marchetti</text>
+  <text class="title" x="280" y="432" text-anchor="middle">Operations Director</text>
+  <rect class="node" x="228" y="478" width="128" height="42" rx="9"/>
+  <text class="name" x="292" y="496" text-anchor="middle">Henrik Boe</text>
+  <text class="title" x="292" y="510" text-anchor="middle">Finance Analyst</text>
+  <rect class="node" x="228" y="532" width="128" height="42" rx="9"/>
+  <text class="name" x="292" y="550" text-anchor="middle">Yuki Sorensen</text>
+  <text class="title" x="292" y="564" text-anchor="middle">Compliance Reviewer</text>
+  <rect class="node" x="228" y="586" width="128" height="42" rx="9"/>
+  <text class="name" x="292" y="604" text-anchor="middle">Tessa Whitfield</text>
+  <text class="title" x="292" y="618" text-anchor="middle">Support Lead</text>
+  <rect class="node" x="375" y="400" width="150" height="44" rx="9"/>
+  <text class="name" x="450" y="418" text-anchor="middle">Rocco Baldini</text>
+  <text class="title" x="450" y="432" text-anchor="middle">Game Development Director</text>
+  <rect class="node" x="398" y="478" width="128" height="42" rx="9"/>
+  <text class="name" x="462" y="496" text-anchor="middle">June Park</text>
+  <text class="title" x="462" y="510" text-anchor="middle">Game Designer</text>
+  <rect class="node" x="398" y="532" width="128" height="42" rx="9"/>
+  <text class="name" x="462" y="550" text-anchor="middle">Elias Vainio</text>
+  <text class="title" x="462" y="564" text-anchor="middle">Gameplay Engineer</text>
+  <rect class="node" x="398" y="586" width="128" height="42" rx="9"/>
+  <text class="name" x="462" y="604" text-anchor="middle">Zadie Moreau</text>
+  <text class="title" x="462" y="618" text-anchor="middle">Technical Artist</text>
+  <rect class="node" x="545" y="400" width="150" height="44" rx="9"/>
+  <text class="name" x="620" y="418" text-anchor="middle">Casper Holm</text>
+  <text class="title" x="620" y="432" text-anchor="middle">Spatial Computing Director</text>
+  <rect class="node" x="568" y="478" width="128" height="42" rx="9"/>
+  <text class="name" x="632" y="496" text-anchor="middle">Nia Templeton</text>
+  <text class="title" x="632" y="510" text-anchor="middle">Spatial Engineer</text>
+  <rect class="node" x="568" y="532" width="128" height="42" rx="9"/>
+  <text class="name" x="632" y="550" text-anchor="middle">Ruben Castell</text>
+  <text class="title" x="632" y="564" text-anchor="middle">Spatial Interface Designer</text>
+  <rect class="node" x="568" y="586" width="128" height="42" rx="9"/>
+  <text class="name" x="632" y="604" text-anchor="middle">Freja Dahl</text>
+  <text class="title" x="632" y="618" text-anchor="middle">Real-Time Graphics Engineer</text>
+  <rect class="node" x="715" y="400" width="150" height="44" rx="9"/>
+  <text class="name" x="790" y="418" text-anchor="middle">Imre Katona</text>
+  <text class="title" x="790" y="432" text-anchor="middle">Specialized Ops Director</text>
+  <rect class="node" x="738" y="478" width="128" height="42" rx="9"/>
+  <text class="name" x="802" y="496" text-anchor="middle">Dalia Rosen</text>
+  <text class="title" x="802" y="510" text-anchor="middle">Automation Architect</text>
+  <rect class="node" x="738" y="532" width="128" height="42" rx="9"/>
+  <text class="name" x="802" y="550" text-anchor="middle">Owen Brady</text>
+  <text class="title" x="802" y="564" text-anchor="middle">Knowledge Manager</text>
+  <rect class="node" x="738" y="586" width="128" height="42" rx="9"/>
+  <text class="name" x="802" y="604" text-anchor="middle">Selin Aydin</text>
+  <text class="title" x="802" y="618" text-anchor="middle">Developer Advocate</text>
+</svg>

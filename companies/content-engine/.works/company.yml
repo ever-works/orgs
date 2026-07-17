@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: marketing
+  avatarIcon: megaphone
+  tags: [seo, content-marketing, social-media, lead-generation, analytics]

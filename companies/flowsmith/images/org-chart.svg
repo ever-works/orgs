@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 340" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .node { fill: #eef2ff; stroke: #4f46e5; stroke-width: 1.5; }
+    .root { fill: #4f46e5; stroke: #4f46e5; stroke-width: 1.5; }
+    .name { font-size: 13px; font-weight: 600; fill: #1e1b4b; text-anchor: middle; }
+    .title { font-size: 11px; fill: #6366f1; text-anchor: middle; }
+    .rootname { font-size: 13px; font-weight: 600; fill: #ffffff; text-anchor: middle; }
+    .roottitle { font-size: 11px; fill: #c7d2fe; text-anchor: middle; }
+    .edge { fill: none; stroke: #a5b4fc; stroke-width: 1.5; }
+  </style>
+
+  <!-- edges: conductor -> level 2 -->
+  <path class="edge" d="M 438 80 V 110 H 120 V 140" />
+  <path class="edge" d="M 438 80 V 110 H 320 V 140" />
+  <path class="edge" d="M 438 80 V 110 H 520 V 140" />
+  <path class="edge" d="M 438 80 V 110 H 790 V 140" />
+  <!-- edges: planner -> scout -->
+  <path class="edge" d="M 120 196 V 226 H 120 V 256" />
+  <!-- edges: efficiency-lead -> analysts -->
+  <path class="edge" d="M 790 196 V 226 H 700 V 256" />
+  <path class="edge" d="M 790 196 V 226 H 880 V 256" />
+
+  <!-- root -->
+  <rect class="root" x="354" y="24" width="168" height="56" rx="10" />
+  <text class="rootname" x="438" y="47">Ansel</text>
+  <text class="roottitle" x="438" y="64">Director of Engineering</text>
+
+  <!-- level 2 -->
+  <rect class="node" x="36" y="140" width="168" height="56" rx="10" />
+  <text class="name" x="120" y="163">Wren</text>
+  <text class="title" x="120" y="180">Chief Architect</text>
+
+  <rect class="node" x="236" y="140" width="168" height="56" rx="10" />
+  <text class="name" x="320" y="163">Petra</text>
+  <text class="title" x="320" y="180">Staff Engineer</text>
+
+  <rect class="node" x="436" y="140" width="168" height="56" rx="10" />
+  <text class="name" x="520" y="163">Caleb</text>
+  <text class="title" x="520" y="180">Senior Engineer</text>
+
+  <rect class="node" x="706" y="140" width="168" height="56" rx="10" />
+  <text class="name" x="790" y="163">Mara</text>
+  <text class="title" x="790" y="180">Operations Lead</text>
+
+  <!-- level 3 -->
+  <rect class="node" x="36" y="256" width="168" height="56" rx="10" />
+  <text class="name" x="120" y="279">Ivo</text>
+  <text class="title" x="120" y="296">Codebase Analyst</text>
+
+  <rect class="node" x="616" y="256" width="168" height="56" rx="10" />
+  <text class="name" x="700" y="279">Theo</text>
+  <text class="title" x="700" y="296">Access Analyst</text>
+
+  <rect class="node" x="796" y="256" width="168" height="56" rx="10" />
+  <text class="name" x="880" y="279">Nadia</text>
+  <text class="title" x="880" y="296">Cost Analyst</text>
+</svg>

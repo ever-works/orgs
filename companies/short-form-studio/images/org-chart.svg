@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 356" role="img" aria-label="Short-Form Studio org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.25; }
+    .root { fill: #4f46e5; stroke: #4f46e5; stroke-width: 1.25; }
+    .link { fill: none; stroke: #4f46e5; stroke-width: 1.5; stroke-opacity: 0.55; }
+    .name { font: 600 14px system-ui, sans-serif; fill: #1f2937; text-anchor: middle; }
+    .title { font: 400 11px system-ui, sans-serif; fill: #6b7280; text-anchor: middle; }
+    .rootname { font: 600 14px system-ui, sans-serif; fill: #ffffff; text-anchor: middle; }
+    .roottitle { font: 400 11px system-ui, sans-serif; fill: #e0e7ff; text-anchor: middle; }
+  </style>
+
+  <!-- links: studio-director -> content-strategist, producer, retention-analyst, channel-manager -->
+  <path class="link" d="M530 76 V113 H170 V150" />
+  <path class="link" d="M530 76 V113 H470 V150" />
+  <path class="link" d="M530 76 V113 H730 V150" />
+  <path class="link" d="M530 76 V113 H930 V150" />
+  <!-- links: content-strategist -> trend-scout, scriptwriter -->
+  <path class="link" d="M170 206 V243 H90 V280" />
+  <path class="link" d="M170 206 V243 H245 V280" />
+  <!-- links: producer -> video-editor, voice-director -->
+  <path class="link" d="M470 206 V243 H405 V280" />
+  <path class="link" d="M470 206 V243 H560 V280" />
+
+  <!-- row 1: studio-director -->
+  <rect class="root" x="460" y="20" width="140" height="56" rx="10" />
+  <text class="rootname" x="530" y="44">Marlowe</text>
+  <text class="roottitle" x="530" y="62">Studio Director</text>
+
+  <!-- row 2 -->
+  <rect class="node" x="100" y="150" width="140" height="56" rx="10" />
+  <text class="name" x="170" y="174">Iris</text>
+  <text class="title" x="170" y="192">Content Strategist</text>
+
+  <rect class="node" x="400" y="150" width="140" height="56" rx="10" />
+  <text class="name" x="470" y="174">Otis</text>
+  <text class="title" x="470" y="192">Producer</text>
+
+  <rect class="node" x="660" y="150" width="140" height="56" rx="10" />
+  <text class="name" x="730" y="174">Quill</text>
+  <text class="title" x="730" y="192">Retention Analyst</text>
+
+  <rect class="node" x="860" y="150" width="140" height="56" rx="10" />
+  <text class="name" x="930" y="174">Vesper</text>
+  <text class="title" x="930" y="192">Channel Manager</text>
+
+  <!-- row 3 -->
+  <rect class="node" x="20" y="280" width="140" height="56" rx="10" />
+  <text class="name" x="90" y="304">Rex</text>
+  <text class="title" x="90" y="322">Trend Scout</text>
+
+  <rect class="node" x="175" y="280" width="140" height="56" rx="10" />
+  <text class="name" x="245" y="304">Sable</text>
+  <text class="title" x="245" y="322">Scriptwriter</text>
+
+  <rect class="node" x="335" y="280" width="140" height="56" rx="10" />
+  <text class="name" x="405" y="304">Wren</text>
+  <text class="title" x="405" y="322">Video Editor</text>
+
+  <rect class="node" x="490" y="280" width="140" height="56" rx="10" />
+  <text class="name" x="560" y="304">Cadence</text>
+  <text class="title" x="560" y="322">Voice Director</text>
+</svg>

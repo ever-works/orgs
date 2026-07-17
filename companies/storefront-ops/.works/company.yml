@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: commerce
+  avatarIcon: shopping-cart
+  tags: [ecommerce, retail, growth-marketing, operations, analytics]
