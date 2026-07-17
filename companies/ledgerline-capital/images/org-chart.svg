@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 352" role="img" aria-label="Ledgerline Capital org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; }
+    .name { font: 600 13px system-ui, sans-serif; fill: #111827; text-anchor: middle; }
+    .title { font: 400 11px system-ui, sans-serif; fill: #6b7280; text-anchor: middle; }
+    .link { fill: none; stroke: #4f46e5; stroke-width: 1.5; }
+  </style>
+
+  <!-- connectors: cio -> direct reports -->
+  <path class="link" d="M366 82 V112 H202 V146" />
+  <path class="link" d="M366 82 V112 H531 V146" />
+  <!-- connectors: equity-analyst -> direct reports -->
+  <path class="link" d="M202 204 V234 H109 V268" />
+  <path class="link" d="M202 204 V234 H295 V268" />
+  <!-- connector: risk-officer -> memo-writer -->
+  <path class="link" d="M531 204 V268" />
+
+  <!-- cio (root) -->
+  <rect class="node" x="281" y="24" width="170" height="58" rx="10" />
+  <text class="name" x="366" y="48">Miriam Okafor</text>
+  <text class="title" x="366" y="66">Chief Investment Officer</text>
+
+  <!-- equity-analyst -->
+  <rect class="node" x="117" y="146" width="170" height="58" rx="10" />
+  <text class="name" x="202" y="170">Daniel Reyes</text>
+  <text class="title" x="202" y="188">Lead Equity Analyst</text>
+
+  <!-- risk-officer -->
+  <rect class="node" x="446" y="146" width="170" height="58" rx="10" />
+  <text class="name" x="531" y="170">Henrik Straub</text>
+  <text class="title" x="531" y="188">Risk Officer</text>
+
+  <!-- macro-analyst -->
+  <rect class="node" x="24" y="268" width="170" height="58" rx="10" />
+  <text class="name" x="109" y="292">Sofia Lindgren</text>
+  <text class="title" x="109" y="310">Macro Analyst</text>
+
+  <!-- quant-researcher -->
+  <rect class="node" x="210" y="268" width="170" height="58" rx="10" />
+  <text class="name" x="295" y="292">Wei Zhang</text>
+  <text class="title" x="295" y="310">Quantitative Researcher</text>
+
+  <!-- memo-writer -->
+  <rect class="node" x="446" y="268" width="170" height="58" rx="10" />
+  <text class="name" x="531" y="292">Amara Diallo</text>
+  <text class="title" x="531" y="310">Research Memo Editor</text>
+</svg>

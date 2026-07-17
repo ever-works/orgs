@@ -1,0 +1,14 @@
+{
+	"name": "@ever-works/orgs",
+	"private": true,
+	"type": "module",
+	"description": "Ever Works catalog of prebuilt AI companies (agentcompanies/v1 packages)",
+	"scripts": {
+		"validate": "node scripts/validate.mjs",
+		"build-manifest": "node scripts/build-manifest.mjs"
+	},
+	"devDependencies": {
+		"ajv": "^8.17.1",
+		"yaml": "^2.8.0"
+	}
+}

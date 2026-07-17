@@ -1,0 +1,34 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "Ever Works orgs catalog manifest",
+	"type": "object",
+	"required": ["version", "companies"],
+	"additionalProperties": false,
+	"properties": {
+		"$schema": { "type": "string" },
+		"version": { "const": 1 },
+		"generatedBy": { "type": "string" },
+		"companies": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"required": ["slug", "path", "name", "description", "category", "agents", "teams", "skills"],
+				"additionalProperties": false,
+				"properties": {
+					"slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,63}$" },
+					"path": { "type": "string", "pattern": "^companies/[a-z0-9][a-z0-9-]{0,63}$" },
+					"name": { "type": "string", "minLength": 1, "maxLength": 120 },
+					"description": { "type": "string", "minLength": 1, "maxLength": 500 },
+					"category": { "type": "string", "minLength": 1, "maxLength": 60 },
+					"agents": { "type": "integer", "minimum": 1, "maximum": 12 },
+					"teams": { "type": "integer", "minimum": 0, "maximum": 5 },
+					"skills": { "type": "integer", "minimum": 0, "maximum": 8 },
+					"projects": { "type": "integer", "minimum": 0, "maximum": 2 },
+					"avatarIcon": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+					"tags": { "type": "array", "items": { "type": "string", "maxLength": 60 }, "maxItems": 8 },
+					"featured": { "type": "boolean" }
+				}
+			}
+		}
+	}
+}

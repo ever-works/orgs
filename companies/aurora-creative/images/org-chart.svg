@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- Aurora Creative Agency — org chart -->
+  <g fill="none" stroke="#4f46e5" stroke-width="1.5">
+    <path d="M432 88 V130 H235 V170" />
+    <path d="M432 88 V130 H630 V170" />
+    <path d="M235 228 V270 H130 V310" />
+    <path d="M235 228 V270 H340 V310" />
+    <path d="M630 228 V310" />
+  </g>
+
+  <!-- Creative Director (root) -->
+  <g>
+    <rect x="342" y="30" width="180" height="58" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="432" y="55" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Marlow Hale</text>
+    <text x="432" y="73" text-anchor="middle" font-size="11" fill="#6b7280">Creative Director</text>
+  </g>
+
+  <!-- Brand Strategist -->
+  <g>
+    <rect x="145" y="170" width="180" height="58" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="235" y="195" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Ines Varga</text>
+    <text x="235" y="213" text-anchor="middle" font-size="11" fill="#6b7280">Brand Strategist</text>
+  </g>
+
+  <!-- Art Director -->
+  <g>
+    <rect x="540" y="170" width="180" height="58" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="630" y="195" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Theo Marchetti</text>
+    <text x="630" y="213" text-anchor="middle" font-size="11" fill="#6b7280">Art Director</text>
+  </g>
+
+  <!-- Copywriter -->
+  <g>
+    <rect x="40" y="310" width="180" height="58" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="130" y="335" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Priya Sethi</text>
+    <text x="130" y="353" text-anchor="middle" font-size="11" fill="#6b7280">Copywriter</text>
+  </g>
+
+  <!-- Social Media Manager -->
+  <g>
+    <rect x="250" y="310" width="180" height="58" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="340" y="335" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Dara Okafor</text>
+    <text x="340" y="353" text-anchor="middle" font-size="11" fill="#6b7280">Social Media Manager</text>
+  </g>
+
+  <!-- Motion Designer -->
+  <g>
+    <rect x="540" y="310" width="180" height="58" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="630" y="335" text-anchor="middle" font-size="14" font-weight="600" fill="#111827">Kenji Abara</text>
+    <text x="630" y="353" text-anchor="middle" font-size="11" fill="#6b7280">Motion Designer</text>
+  </g>
+</svg>

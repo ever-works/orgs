@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: games
+  avatarIcon: gamepad-2
+  tags: [games, creative]

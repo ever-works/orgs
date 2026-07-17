@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: engineering
+  avatarIcon: cpu
+  tags: [engineering, full-stack]

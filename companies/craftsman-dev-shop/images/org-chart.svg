@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 310" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- connectors -->
+  <g stroke="#4f46e5" stroke-width="1.5" fill="none">
+    <!-- ceo -> lead-engineer -->
+    <path d="M340 70 V126" />
+    <!-- lead-engineer -> children (elbow) -->
+    <path d="M340 180 V208" />
+    <path d="M120 208 H560" />
+    <path d="M120 208 V236" />
+    <path d="M340 208 V236" />
+    <path d="M560 208 V236" />
+  </g>
+
+  <!-- ceo (root) -->
+  <g>
+    <rect x="250" y="16" width="180" height="54" rx="10" fill="#4f46e5" />
+    <text x="340" y="38" text-anchor="middle" font-size="14" font-weight="600" fill="#ffffff">Rowan Ashford</text>
+    <text x="340" y="56" text-anchor="middle" font-size="11" fill="#e0e7ff">Founder &amp; CEO</text>
+  </g>
+
+  <!-- lead-engineer -->
+  <g>
+    <rect x="250" y="126" width="180" height="54" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="340" y="148" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">Mira Holt</text>
+    <text x="340" y="166" text-anchor="middle" font-size="11" fill="#6b7280">Lead Engineer</text>
+  </g>
+
+  <!-- code-reviewer -->
+  <g>
+    <rect x="30" y="236" width="180" height="54" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="120" y="258" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">Felix Marren</text>
+    <text x="120" y="276" text-anchor="middle" font-size="11" fill="#6b7280">Code Reviewer</text>
+  </g>
+
+  <!-- release-engineer -->
+  <g>
+    <rect x="250" y="236" width="180" height="54" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="340" y="258" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">Sana Iqbal</text>
+    <text x="340" y="276" text-anchor="middle" font-size="11" fill="#6b7280">Release Engineer</text>
+  </g>
+
+  <!-- qa-analyst -->
+  <g>
+    <rect x="470" y="236" width="180" height="54" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+    <text x="560" y="258" text-anchor="middle" font-size="14" font-weight="600" fill="#1f2937">Theo Brandt</text>
+    <text x="560" y="276" text-anchor="middle" font-size="11" fill="#6b7280">QA Analyst</text>
+  </g>
+</svg>

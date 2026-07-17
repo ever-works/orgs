@@ -1,0 +1,21 @@
+schema: everworks/v1
+catalog:
+  category: general
+  avatarIcon: rocket
+  tags: [starter, featured, general]
+  featured: true
+agents:
+  pm:
+    template: starter-pm
+  coder:
+    template: starter-coder
+  researcher:
+    template: starter-researcher
+  marketer:
+    template: starter-marketer
+  copywriter:
+    template: starter-copywriter
+  sales:
+    template: starter-sales
+  support:
+    template: starter-support

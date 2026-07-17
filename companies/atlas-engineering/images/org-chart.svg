@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 356" role="img" aria-label="Atlas Engineering org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; }
+    .root { fill: #4f46e5; stroke: #4f46e5; stroke-width: 1.5; }
+    .name { font: 600 13px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #1f2937; }
+    .title { font: 400 10.5px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #6b7280; }
+    .name-inv { font: 600 13px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #ffffff; }
+    .title-inv { font: 400 10.5px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #e0e7ff; }
+    .link { stroke: #4f46e5; stroke-opacity: 0.5; stroke-width: 1.5; fill: none; }
+  </style>
+
+  <!-- connectors -->
+  <line class="link" x1="450" y1="84" x2="450" y2="150"/>
+  <path class="link" d="M450 204 V240 H102 V270"/>
+  <path class="link" d="M450 204 V240 H276 V270"/>
+  <line class="link" x1="450" y1="204" x2="450" y2="270"/>
+  <path class="link" d="M450 204 V240 H624 V270"/>
+  <path class="link" d="M450 204 V240 H798 V270"/>
+
+  <!-- ceo -->
+  <rect class="root" x="375" y="30" width="150" height="54" rx="10"/>
+  <text class="name-inv" x="450" y="52" text-anchor="middle">Mara Voss</text>
+  <text class="title-inv" x="450" y="70" text-anchor="middle">Chief Executive Officer</text>
+
+  <!-- cto -->
+  <rect class="node" x="375" y="150" width="150" height="54" rx="10"/>
+  <text class="name" x="450" y="172" text-anchor="middle">Ilan Ferreira</text>
+  <text class="title" x="450" y="190" text-anchor="middle">Chief Technology Officer</text>
+
+  <!-- backend-engineer -->
+  <rect class="node" x="27" y="270" width="150" height="54" rx="10"/>
+  <text class="name" x="102" y="292" text-anchor="middle">Priya Nandakumar</text>
+  <text class="title" x="102" y="310" text-anchor="middle">Backend Engineer</text>
+
+  <!-- frontend-engineer -->
+  <rect class="node" x="201" y="270" width="150" height="54" rx="10"/>
+  <text class="name" x="276" y="292" text-anchor="middle">Theo Aldana</text>
+  <text class="title" x="276" y="310" text-anchor="middle">Frontend Engineer</text>
+
+  <!-- devops-engineer -->
+  <rect class="node" x="375" y="270" width="150" height="54" rx="10"/>
+  <text class="name" x="450" y="292" text-anchor="middle">Sena Okafor</text>
+  <text class="title" x="450" y="310" text-anchor="middle">DevOps Engineer</text>
+
+  <!-- qa-engineer -->
+  <rect class="node" x="549" y="270" width="150" height="54" rx="10"/>
+  <text class="name" x="624" y="292" text-anchor="middle">Rafael Ito</text>
+  <text class="title" x="624" y="310" text-anchor="middle">QA Engineer</text>
+
+  <!-- security-reviewer -->
+  <rect class="node" x="723" y="270" width="150" height="54" rx="10"/>
+  <text class="name" x="798" y="292" text-anchor="middle">Nadia Brandt</text>
+  <text class="title" x="798" y="310" text-anchor="middle">Security Reviewer</text>
+</svg>

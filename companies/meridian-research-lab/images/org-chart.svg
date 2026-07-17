@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 776 352" role="img" aria-label="Meridian Research Lab org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; rx: 10; }
+    .name { font: 600 13px system-ui, sans-serif; fill: #111827; text-anchor: middle; }
+    .title { font: 400 11px system-ui, sans-serif; fill: #6b7280; text-anchor: middle; }
+    .link { fill: none; stroke: #4f46e5; stroke-width: 1.5; }
+  </style>
+
+  <!-- connectors: chief-scientist -> direct reports -->
+  <path class="link" d="M388 82 V112 H109 V146" />
+  <path class="link" d="M388 82 V112 H295 V146" />
+  <path class="link" d="M388 82 V112 H481 V146" />
+  <path class="link" d="M388 82 V112 H667 V146" />
+  <!-- connector: science-writer -> lab-coordinator -->
+  <path class="link" d="M667 204 V268" />
+
+  <!-- chief-scientist (root) -->
+  <rect class="node" x="303" y="24" width="170" height="58" rx="10" />
+  <text class="name" x="388" y="48">Dr. Elara Voss</text>
+  <text class="title" x="388" y="66">Chief Scientist</text>
+
+  <!-- literature-reviewer -->
+  <rect class="node" x="24" y="146" width="170" height="58" rx="10" />
+  <text class="name" x="109" y="170">Priya Raman</text>
+  <text class="title" x="109" y="188">Literature Reviewer</text>
+
+  <!-- data-analyst -->
+  <rect class="node" x="210" y="146" width="170" height="58" rx="10" />
+  <text class="name" x="295" y="170">Marcus Oduya</text>
+  <text class="title" x="295" y="188">Data Analyst</text>
+
+  <!-- methodology-critic -->
+  <rect class="node" x="396" y="146" width="170" height="58" rx="10" />
+  <text class="name" x="481" y="170">Ingrid Halvorsen</text>
+  <text class="title" x="481" y="188">Methodology Critic</text>
+
+  <!-- science-writer -->
+  <rect class="node" x="582" y="146" width="170" height="58" rx="10" />
+  <text class="name" x="667" y="170">Tomas Ferreira</text>
+  <text class="title" x="667" y="188">Science Writer</text>
+
+  <!-- lab-coordinator -->
+  <rect class="node" x="582" y="268" width="170" height="58" rx="10" />
+  <text class="name" x="667" y="292">Ada Lindqvist</text>
+  <text class="title" x="667" y="310">Lab Coordinator</text>
+</svg>

@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: creative
+  avatarIcon: palette
+  tags: [creative, marketing, brand]

@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: consulting
+  avatarIcon: compass
+  tags: [product, consulting, strategy]

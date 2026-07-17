@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 776 224" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <!-- connectors -->
+  <g stroke="#4f46e5" stroke-width="1.5" fill="none" stroke-opacity="0.55">
+    <path d="M388 72 V112" />
+    <path d="M100 112 H676" />
+    <path d="M100 112 V152" />
+    <path d="M292 112 V152" />
+    <path d="M484 112 V152" />
+    <path d="M676 112 V152" />
+  </g>
+
+  <!-- root: chief-reviewer -->
+  <rect x="304" y="16" width="168" height="56" rx="10" fill="#4f46e5" />
+  <text x="388" y="40" text-anchor="middle" font-size="13" font-weight="600" fill="#ffffff">Adrienne Kolar</text>
+  <text x="388" y="58" text-anchor="middle" font-size="10.5" fill="#e0e7ff">Chief Reviewer</text>
+
+  <!-- security-reviewer -->
+  <rect x="16" y="152" width="168" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+  <text x="100" y="176" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Tomas Reyes</text>
+  <text x="100" y="194" text-anchor="middle" font-size="10.5" fill="#6b7280">Security Reviewer</text>
+
+  <!-- performance-reviewer -->
+  <rect x="208" y="152" width="168" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+  <text x="292" y="176" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Noor Haddad</text>
+  <text x="292" y="194" text-anchor="middle" font-size="10.5" fill="#6b7280">Performance Reviewer</text>
+
+  <!-- architecture-reviewer -->
+  <rect x="400" y="152" width="168" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+  <text x="484" y="176" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Elias Brandt</text>
+  <text x="484" y="194" text-anchor="middle" font-size="10.5" fill="#6b7280">Architecture Reviewer</text>
+
+  <!-- docs-reviewer -->
+  <rect x="592" y="152" width="168" height="56" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5" />
+  <text x="676" y="176" text-anchor="middle" font-size="13" font-weight="600" fill="#1f2937">Camille Duarte</text>
+  <text x="676" y="194" text-anchor="middle" font-size="10.5" fill="#6b7280">Documentation Reviewer</text>
+</svg>

@@ -1,0 +1,172 @@
+{
+	"$schema": "./schema/orgs-manifest.schema.json",
+	"version": 1,
+	"generatedBy": "scripts/build-manifest.mjs",
+	"companies": [
+		{
+			"slug": "ever-starter",
+			"path": "companies/ever-starter",
+			"name": "Ever Starter Co",
+			"description": "A ready-to-run general-purpose starter company with a CEO, a product team, and a growth team, built to take any new business from raw idea to shipped first launch.",
+			"category": "general",
+			"agents": 8,
+			"teams": 2,
+			"skills": 4,
+			"projects": 1,
+			"avatarIcon": "rocket",
+			"tags": [
+				"starter",
+				"featured",
+				"general"
+			],
+			"featured": true
+		},
+		{
+			"slug": "atlas-engineering",
+			"path": "companies/atlas-engineering",
+			"name": "Atlas Engineering",
+			"description": "A product-engineering organization that takes web software from rough idea to production, covering backend, frontend, infrastructure, quality, and security under one roof.",
+			"category": "engineering",
+			"agents": 7,
+			"teams": 2,
+			"skills": 3,
+			"projects": 1,
+			"avatarIcon": "cpu",
+			"tags": [
+				"engineering",
+				"full-stack"
+			]
+		},
+		{
+			"slug": "aurora-creative",
+			"path": "companies/aurora-creative",
+			"name": "Aurora Creative Agency",
+			"description": "A brand and content agency that turns raw business goals into positioning, campaigns, and finished creative — strategy first, production second, review always.",
+			"category": "creative",
+			"agents": 6,
+			"teams": 2,
+			"skills": 3,
+			"projects": 0,
+			"avatarIcon": "palette",
+			"tags": [
+				"creative",
+				"marketing",
+				"brand"
+			]
+		},
+		{
+			"slug": "bulwark-security",
+			"path": "companies/bulwark-security",
+			"name": "Bulwark Security",
+			"description": "A defensive security audit and advisory firm that scopes authorized assessments, models threats, audits applications and infrastructure, and turns verified findings into prioritized remediation guidance.",
+			"category": "security",
+			"agents": 6,
+			"teams": 2,
+			"skills": 3,
+			"projects": 0,
+			"avatarIcon": "shield",
+			"tags": [
+				"security",
+				"audit"
+			]
+		},
+		{
+			"slug": "craftsman-dev-shop",
+			"path": "companies/craftsman-dev-shop",
+			"name": "Craftsman Dev Shop",
+			"description": "A small, disciplined software studio that turns rough ideas into shipped features through brainstorm, plan, test-first build, independent review, and a careful release.",
+			"category": "engineering",
+			"agents": 5,
+			"teams": 1,
+			"skills": 3,
+			"projects": 0,
+			"avatarIcon": "hammer",
+			"tags": [
+				"engineering",
+				"tdd",
+				"quality"
+			]
+		},
+		{
+			"slug": "ledgerline-capital",
+			"path": "companies/ledgerline-capital",
+			"name": "Ledgerline Capital",
+			"description": "An investment research firm that turns market questions into evidence-graded internal analysis memos and adversarial risk reviews — strictly internal research, never financial advice, never trade execution.",
+			"category": "finance",
+			"agents": 6,
+			"teams": 2,
+			"skills": 2,
+			"projects": 0,
+			"avatarIcon": "trending-up",
+			"tags": [
+				"finance",
+				"research"
+			]
+		},
+		{
+			"slug": "meridian-research-lab",
+			"path": "companies/meridian-research-lab",
+			"name": "Meridian Research Lab",
+			"description": "A rigorous research lab that turns open questions into evidence-backed reports through structured literature review, quantitative analysis, adversarial methodological critique, and careful scientific writing.",
+			"category": "research",
+			"agents": 6,
+			"teams": 2,
+			"skills": 3,
+			"projects": 0,
+			"avatarIcon": "flask-conical",
+			"tags": [
+				"research",
+				"analysis"
+			]
+		},
+		{
+			"slug": "northstar-consulting",
+			"path": "companies/northstar-consulting",
+			"name": "Northstar Product Consulting",
+			"description": "A product strategy consultancy that turns fuzzy product questions into evidence-backed strategy, prioritized roadmaps, and defensible pricing recommendations.",
+			"category": "consulting",
+			"agents": 6,
+			"teams": 2,
+			"skills": 3,
+			"projects": 0,
+			"avatarIcon": "compass",
+			"tags": [
+				"product",
+				"consulting",
+				"strategy"
+			]
+		},
+		{
+			"slug": "pixelforge-game-studio",
+			"path": "companies/pixelforge-game-studio",
+			"name": "Pixelforge Game Studio",
+			"description": "An indie game studio org that takes a game from raw concept to a polished playable build, with design, engineering, and art-audio teams working in tight playtest-driven loops.",
+			"category": "games",
+			"agents": 8,
+			"teams": 3,
+			"skills": 3,
+			"projects": 0,
+			"avatarIcon": "gamepad-2",
+			"tags": [
+				"games",
+				"creative"
+			]
+		},
+		{
+			"slug": "sentinel-review-board",
+			"path": "companies/sentinel-review-board",
+			"name": "Sentinel Review Board",
+			"description": "An independent code-review firm that examines submitted changes for security, performance, architecture, and documentation quality, and returns a single structured review report with verdicts and prioritized findings.",
+			"category": "engineering",
+			"agents": 5,
+			"teams": 1,
+			"skills": 3,
+			"projects": 0,
+			"avatarIcon": "shield-check",
+			"tags": [
+				"code-review",
+				"quality"
+			]
+		}
+	]
+}

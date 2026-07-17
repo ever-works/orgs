@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: engineering
+  avatarIcon: hammer
+  tags: [engineering, tdd, quality]
