@@ -37,7 +37,7 @@ const fm = (file) => {
 const companies = listDirs(COMPANIES_DIR).map((slug) => {
 	const dir = join(COMPANIES_DIR, slug);
 	const company = fm(join(dir, 'COMPANY.md')) ?? {};
-	const ew = parseYaml(readFileSync(join(dir, '.everworks.yaml'), 'utf8')) ?? {};
+	const ew = parseYaml(readFileSync(join(dir, '.works', 'company.yml'), 'utf8')) ?? {};
 	const counts = {
 		agents: listDirs(join(dir, 'agents')).length,
 		teams: listDirs(join(dir, 'teams')).length,

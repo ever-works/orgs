@@ -20,7 +20,7 @@
 				"general"
 			],
 			"files": [
-				".everworks.yaml",
+				".works/company.yml",
 				"COMPANY.md",
 				"README.md",
 				"agents/ceo/AGENTS.md",
@@ -61,7 +61,7 @@
 				"full-stack"
 			],
 			"files": [
-				".everworks.yaml",
+				".works/company.yml",
 				"COMPANY.md",
 				"README.md",
 				"agents/backend-engineer/AGENTS.md",
@@ -99,7 +99,7 @@
 				"brand"
 			],
 			"files": [
-				".everworks.yaml",
+				".works/company.yml",
 				"COMPANY.md",
 				"README.md",
 				"agents/art-director/AGENTS.md",
@@ -132,7 +132,7 @@
 				"audit"
 			],
 			"files": [
-				".everworks.yaml",
+				".works/company.yml",
 				"COMPANY.md",
 				"README.md",
 				"agents/appsec-auditor/AGENTS.md",
@@ -166,7 +166,7 @@
 				"quality"
 			],
 			"files": [
-				".everworks.yaml",
+				".works/company.yml",
 				"COMPANY.md",
 				"README.md",
 				"agents/ceo/AGENTS.md",
@@ -197,7 +197,7 @@
 				"research"
 			],
 			"files": [
-				".everworks.yaml",
+				".works/company.yml",
 				"COMPANY.md",
 				"README.md",
 				"agents/cio/AGENTS.md",
@@ -229,7 +229,7 @@
 				"analysis"
 			],
 			"files": [
-				".everworks.yaml",
+				".works/company.yml",
 				"COMPANY.md",
 				"README.md",
 				"agents/chief-scientist/AGENTS.md",
@@ -263,7 +263,7 @@
 				"strategy"
 			],
 			"files": [
-				".everworks.yaml",
+				".works/company.yml",
 				"COMPANY.md",
 				"README.md",
 				"agents/managing-partner/AGENTS.md",
@@ -296,7 +296,7 @@
 				"creative"
 			],
 			"files": [
-				".everworks.yaml",
+				".works/company.yml",
 				"COMPANY.md",
 				"README.md",
 				"agents/art-director/AGENTS.md",
@@ -332,7 +332,7 @@
 				"quality"
 			],
 			"files": [
-				".everworks.yaml",
+				".works/company.yml",
 				"COMPANY.md",
 				"README.md",
 				"agents/architecture-reviewer/AGENTS.md",

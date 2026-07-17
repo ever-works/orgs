@@ -10,7 +10,9 @@ import Ajv from 'ajv';
 const ROOT = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const COMPANIES_DIR = join(ROOT, 'companies');
 const SLUG_RE = /^[a-z0-9][a-z0-9-]{0,63}$/;
-const LIMITS = { agents: 12, teams: 5, skills: 8, projects: 2 };
+// Aligned with the platform importer's server-side caps (teams-and-companies
+// spec §6.2) so every catalog company imports whole, never truncated.
+const LIMITS = { agents: 50, teams: 10, skills: 40, projects: 2 };
 
 const errors = [];
 const err = (company, msg) => errors.push(`[${company}] ${msg}`);
@@ -148,20 +150,20 @@ function validateCompany(slug) {
 		}
 	}
 
-	// .everworks.yaml
-	const ewFile = join(dir, '.everworks.yaml');
-	if (!existsSync(ewFile)) err(slug, 'missing .everworks.yaml');
+	// .works/company.yml (Ever Works vendor sidecar — .works/<entity>.yml convention)
+	const ewFile = join(dir, '.works', 'company.yml');
+	if (!existsSync(ewFile)) err(slug, 'missing .works/company.yml');
 	else {
 		try {
 			const ew = parseYaml(readFileSync(ewFile, 'utf8'));
-			if (ew?.schema !== 'everworks/v1') err(slug, `.everworks.yaml schema must be "everworks/v1"`);
+			if (ew?.schema !== 'everworks/v1') err(slug, `.works/company.yml schema must be "everworks/v1"`);
 			for (const [a] of Object.entries(ew?.agents ?? {})) {
-				if (!agents.has(a)) err(slug, `.everworks.yaml references unknown agent "${a}"`);
+				if (!agents.has(a)) err(slug, `.works/company.yml references unknown agent "${a}"`);
 			}
-			if (!ew?.catalog?.category) err(slug, '.everworks.yaml missing catalog.category');
-			if (!ew?.catalog?.avatarIcon) err(slug, '.everworks.yaml missing catalog.avatarIcon');
+			if (!ew?.catalog?.category) err(slug, '.works/company.yml missing catalog.category');
+			if (!ew?.catalog?.avatarIcon) err(slug, '.works/company.yml missing catalog.avatarIcon');
 		} catch (e) {
-			err(slug, `.everworks.yaml YAML error: ${e.message}`);
+			err(slug, `.works/company.yml YAML error: ${e.message}`);
 		}
 	}
 

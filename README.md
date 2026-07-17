@@ -45,10 +45,11 @@ companies/<slug>/
 │   └── tasks/<slug>/TASK.md       # portable starter tasks
 ├── skills/<slug>/SKILL.md         # standard Agent Skills (never redefined)
 ├── images/org-chart.svg
-└── .everworks.yaml                # Ever Works vendor extension (schema: everworks/v1)
+└── .works/company.yml             # Ever Works vendor sidecar (schema: everworks/v1)
 ```
 
-`.everworks.yaml` carries only platform mapping hints (e.g. which
+`.works/company.yml` (the same `.works/<entity>.yml` convention as
+`.works/mission.yml` / `.works/agent.yml`) carries only platform mapping hints (e.g. which
 [`ever-works/agents`](https://github.com/ever-works/agents) starter template an agent
 builds on). It never contains secrets. Other vendors' sidecars (e.g. `.paperclip.yaml`)
 are ignored by the Ever Works importer, and importers of other platforms should ignore
