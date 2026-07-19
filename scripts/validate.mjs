@@ -157,11 +157,28 @@ function validateCompany(slug) {
 		try {
 			const ew = parseYaml(readFileSync(ewFile, 'utf8'));
 			if (ew?.schema !== 'everworks/v1') err(slug, `.works/company.yml schema must be "everworks/v1"`);
-			for (const [a] of Object.entries(ew?.agents ?? {})) {
+			const ICON_RE = /^[a-z0-9][a-z0-9-]*$/;
+			for (const [a, cfg] of Object.entries(ew?.agents ?? {})) {
 				if (!agents.has(a)) err(slug, `.works/company.yml references unknown agent "${a}"`);
+				// Optional per-agent import hints — validated only when present (additive).
+				if (cfg && typeof cfg === 'object') {
+					if (cfg.avatarIcon !== undefined && !ICON_RE.test(String(cfg.avatarIcon)))
+						err(slug, `.works/company.yml agents.${a}.avatarIcon must be a kebab-case icon id`);
+					if (cfg.heartbeatCadence !== undefined && typeof cfg.heartbeatCadence !== 'string')
+						err(slug, `.works/company.yml agents.${a}.heartbeatCadence must be a string (cron or "manual")`);
+					if (cfg.budgetMonthly !== undefined && !(typeof cfg.budgetMonthly === 'number' && cfg.budgetMonthly >= 0))
+						err(slug, `.works/company.yml agents.${a}.budgetMonthly must be a non-negative number`);
+					if (cfg.tags !== undefined && !Array.isArray(cfg.tags))
+						err(slug, `.works/company.yml agents.${a}.tags must be an array`);
+				}
 			}
 			if (!ew?.catalog?.category) err(slug, '.works/company.yml missing catalog.category');
 			if (!ew?.catalog?.avatarIcon) err(slug, '.works/company.yml missing catalog.avatarIcon');
+			// Optional catalog fields (additive).
+			if (ew?.catalog?.summary !== undefined && typeof ew.catalog.summary !== 'string')
+				err(slug, '.works/company.yml catalog.summary must be a string');
+			if (ew?.catalog?.maturity !== undefined && !['stable', 'beta', 'experimental'].includes(ew.catalog.maturity))
+				err(slug, '.works/company.yml catalog.maturity must be stable|beta|experimental');
 		} catch (e) {
 			err(slug, `.works/company.yml YAML error: ${e.message}`);
 		}

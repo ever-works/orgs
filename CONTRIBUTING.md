@@ -18,8 +18,18 @@
    - `.works/company.yml` — the Ever Works vendor sidecar (same `.works/<entity>.yml`
      convention as mission templates' `.works/mission.yml` and agent templates'
      `.works/agent.yml`): `schema: everworks/v1`, a `catalog:` block
-     (`category`, `avatarIcon`, `tags`, optional `featured`), and optional per-agent
-     `agents.<slug>.template: <ever-works/agents slug>`. Hints only; never secrets.
+     (`category`, `avatarIcon`, `tags`, optional `featured`, optional `summary` one-liner,
+     optional `maturity: stable|beta|experimental`), and an optional per-agent `agents.<slug>`
+     block. Per-agent fields (all optional; import hints only, never secrets):
+     - `template: <ever-works/agents slug>` — merge identity files from that agent template.
+     - `avatarIcon: <kebab lucide id>` — the imported Agent's avatar.
+     - `heartbeatCadence: <cron | "manual">` — the Agent's wake cadence (arrives paused; a human
+       enables it). Lets a Company import with its operating rhythm, not just its org chart.
+     - `budgetMonthly: <number>` — a monthly run-budget hint that seeds a per-Agent budget.
+     - `tags: [..]` — free focus tags for filtering.
+   - **Scheduled/recurring work:** a `projects/<slug>/tasks/<slug>/TASK.md` may carry a
+     `schedule:` / `recurrence:` frontmatter block (per agentcompanies/v1); the importer maps it
+     to a recurring Task. Prefer this over ad-hoc cron notes in prose.
    - `images/org-chart.svg` and a short `README.md`.
 3. Content rules:
    - **Original prose.** Do not copy text from other catalogs or from source repos

@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: real-estate
+  avatarIcon: home
+  tags: [real-estate, brokerage, listings, transactions]

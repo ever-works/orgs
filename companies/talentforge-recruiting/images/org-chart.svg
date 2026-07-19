@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 360" role="img" aria-label="Talentforge Recruiting org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; }
+    .link { fill: none; stroke: #4f46e5; stroke-width: 1.5; stroke-opacity: 0.55; }
+    .name { font: 600 13px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #111827; text-anchor: middle; }
+    .role { font: 400 10px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #6b7280; text-anchor: middle; }
+  </style>
+
+  <!-- connectors: root to six direct reports -->
+  <path class="link" d="M530,76 V113 H100 V150" />
+  <path class="link" d="M530,76 V113 H272 V150" />
+  <path class="link" d="M530,76 V113 H444 V150" />
+  <path class="link" d="M530,76 V113 H616 V150" />
+  <path class="link" d="M530,76 V113 H788 V150" />
+  <path class="link" d="M530,76 V113 H960 V150" />
+  <!-- recruiter to coordinator -->
+  <path class="link" d="M444,206 V280" />
+
+  <!-- head-of-talent (root) -->
+  <rect class="node" x="430" y="20" width="200" height="56" rx="10" />
+  <text class="name" x="530" y="44">Maya Okonkwo</text>
+  <text class="role" x="530" y="62">Head of Talent</text>
+
+  <!-- sourcer -->
+  <rect class="node" x="22" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="100" y="174">Diego Ramos</text>
+  <text class="role" x="100" y="192">Talent Sourcer</text>
+
+  <!-- employer-brand-lead -->
+  <rect class="node" x="194" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="272" y="174">Nadia Farouk</text>
+  <text class="role" x="272" y="192">Employer Brand Lead</text>
+
+  <!-- recruiter -->
+  <rect class="node" x="366" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="444" y="174">Hannah Bergström</text>
+  <text class="role" x="444" y="192">Senior Recruiter</text>
+
+  <!-- interview-designer -->
+  <rect class="node" x="538" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="616" y="174">Sam Adeyemi</text>
+  <text class="role" x="616" y="192">Interview Design Lead</text>
+
+  <!-- offer-negotiator -->
+  <rect class="node" x="710" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="788" y="174">Grant Whitmore</text>
+  <text class="role" x="788" y="192">Offer &amp; Negotiation Lead</text>
+
+  <!-- pipeline-analyst -->
+  <rect class="node" x="882" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="960" y="174">Wei Chen</text>
+  <text class="role" x="960" y="192">Talent Pipeline Analyst</text>
+
+  <!-- coordinator -->
+  <rect class="node" x="366" y="280" width="156" height="56" rx="10" />
+  <text class="name" x="444" y="304">Leah Kim</text>
+  <text class="role" x="444" y="322">Recruiting Coordinator</text>
+</svg>

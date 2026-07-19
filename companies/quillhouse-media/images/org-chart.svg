@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" font-family="system-ui, Segoe UI, Helvetica, Arial, sans-serif">
+  <!-- root: editor-in-chief -->
+  <rect x="550" y="30" width="160" height="60" rx="10" fill="#4f46e5"/>
+  <text x="630" y="57" text-anchor="middle" font-size="15" font-weight="600" fill="#ffffff">Cordelia</text>
+  <text x="630" y="76" text-anchor="middle" font-size="10.5" fill="#c7d2fe">Editor-in-Chief</text>
+
+  <!-- root -> row 1 connectors -->
+  <g fill="none" stroke="#a5b4fc" stroke-width="1.5">
+    <path d="M630 90 V125"/>
+    <path d="M190 125 H1070"/>
+    <path d="M190 125 V160"/>
+    <path d="M550 125 V160"/>
+    <path d="M850 125 V160"/>
+    <path d="M1070 125 V160"/>
+  </g>
+
+  <!-- managing-editor -> row 2 connectors -->
+  <g fill="none" stroke="#a5b4fc" stroke-width="1.5">
+    <path d="M190 220 V255"/>
+    <path d="M102 255 H278"/>
+    <path d="M102 255 V290"/>
+    <path d="M278 255 V290"/>
+  </g>
+
+  <!-- audience-lead -> row 2 connectors -->
+  <g fill="none" stroke="#a5b4fc" stroke-width="1.5">
+    <path d="M550 220 V255"/>
+    <path d="M462 255 H638"/>
+    <path d="M462 255 V290"/>
+    <path d="M638 255 V290"/>
+  </g>
+
+  <!-- row 1: managers -->
+  <g>
+    <rect x="110" y="160" width="160" height="60" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="190" y="187" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Theo</text>
+    <text x="190" y="205" text-anchor="middle" font-size="10" fill="#6366f1">Managing Editor</text>
+  </g>
+  <g>
+    <rect x="470" y="160" width="160" height="60" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="550" y="187" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Malcolm</text>
+    <text x="550" y="205" text-anchor="middle" font-size="10" fill="#6366f1">Audience Lead</text>
+  </g>
+  <g>
+    <rect x="770" y="160" width="160" height="60" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="850" y="187" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Iris</text>
+    <text x="850" y="205" text-anchor="middle" font-size="10" fill="#6366f1">Book Project Lead</text>
+  </g>
+  <g>
+    <rect x="990" y="160" width="160" height="60" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="1070" y="187" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Felix</text>
+    <text x="1070" y="205" text-anchor="middle" font-size="10" fill="#6366f1">Designer</text>
+  </g>
+
+  <!-- row 2: editorial floor + producers -->
+  <g>
+    <rect x="22" y="290" width="160" height="60" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="102" y="317" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Nadia</text>
+    <text x="102" y="335" text-anchor="middle" font-size="10" fill="#6366f1">Staff Writer</text>
+  </g>
+  <g>
+    <rect x="198" y="290" width="160" height="60" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="278" y="317" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Wren</text>
+    <text x="278" y="335" text-anchor="middle" font-size="10" fill="#6366f1">Copy Editor</text>
+  </g>
+  <g>
+    <rect x="382" y="290" width="160" height="60" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="462" y="317" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Odette</text>
+    <text x="462" y="335" text-anchor="middle" font-size="10" fill="#6366f1">Newsletter Producer</text>
+  </g>
+  <g>
+    <rect x="558" y="290" width="160" height="60" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="638" y="317" text-anchor="middle" font-size="14" font-weight="600" fill="#1e1b4b">Sasha</text>
+    <text x="638" y="335" text-anchor="middle" font-size="10" fill="#6366f1">Podcast Producer</text>
+  </g>
+</svg>

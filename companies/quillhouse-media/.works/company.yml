@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: media
+  avatarIcon: book-open
+  tags: [publishing, editorial, newsletter, podcast]

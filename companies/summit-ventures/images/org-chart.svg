@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 848 350" role="img" aria-label="Summit Ventures org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; }
+    .name { font: 600 13px system-ui, sans-serif; fill: #111827; text-anchor: middle; }
+    .title { font: 400 11px system-ui, sans-serif; fill: #6b7280; text-anchor: middle; }
+    .link { fill: none; stroke: #4f46e5; stroke-width: 1.5; }
+  </style>
+
+  <!-- connectors: general-partner -> direct reports -->
+  <path class="link" d="M424 82 V112 H109 V146" />
+  <path class="link" d="M424 82 V112 H319 V146" />
+  <path class="link" d="M424 82 V112 H529 V146" />
+  <path class="link" d="M424 82 V112 H739 V146" />
+  <!-- connectors: leads -> their reports -->
+  <path class="link" d="M109 204 V268" />
+  <path class="link" d="M319 204 V268" />
+  <path class="link" d="M529 204 V268" />
+
+  <!-- general-partner (root) -->
+  <rect class="node" x="339" y="24" width="170" height="58" rx="10" />
+  <text class="name" x="424" y="48">Elena Vasquez</text>
+  <text class="title" x="424" y="66">General Partner</text>
+
+  <!-- sourcing-lead -->
+  <rect class="node" x="24" y="146" width="170" height="58" rx="10" />
+  <text class="name" x="109" y="170">Marcus Chen</text>
+  <text class="title" x="109" y="188">Sourcing Lead</text>
+
+  <!-- diligence-lead -->
+  <rect class="node" x="234" y="146" width="170" height="58" rx="10" />
+  <text class="name" x="319" y="170">Tomas Herrera</text>
+  <text class="title" x="319" y="188">Diligence Lead</text>
+
+  <!-- portfolio-lead -->
+  <rect class="node" x="444" y="146" width="170" height="58" rx="10" />
+  <text class="name" x="529" y="170">David Kim</text>
+  <text class="title" x="529" y="188">Portfolio Lead</text>
+
+  <!-- lp-relations -->
+  <rect class="node" x="654" y="146" width="170" height="58" rx="10" />
+  <text class="name" x="739" y="170">Rohan Mehta</text>
+  <text class="title" x="739" y="188">LP Relations Lead</text>
+
+  <!-- analyst -->
+  <rect class="node" x="24" y="268" width="170" height="58" rx="10" />
+  <text class="name" x="109" y="292">Priya Nair</text>
+  <text class="title" x="109" y="310">Investment Analyst</text>
+
+  <!-- market-researcher -->
+  <rect class="node" x="234" y="268" width="170" height="58" rx="10" />
+  <text class="name" x="319" y="292">Aisha Okonkwo</text>
+  <text class="title" x="319" y="310">Market Researcher</text>
+
+  <!-- founder-liaison -->
+  <rect class="node" x="444" y="268" width="170" height="58" rx="10" />
+  <text class="name" x="529" y="292">Lena Fischer</text>
+  <text class="title" x="529" y="310">Founder Liaison</text>
+</svg>

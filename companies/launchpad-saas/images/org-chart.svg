@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 380" role="img" aria-label="Launchpad SaaS org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.25; }
+    .root { fill: #4f46e5; stroke: #4f46e5; stroke-width: 1.25; }
+    .link { fill: none; stroke: #4f46e5; stroke-width: 1.5; stroke-opacity: 0.55; }
+    .name { font: 600 14px system-ui, sans-serif; fill: #1f2937; text-anchor: middle; }
+    .title { font: 400 11px system-ui, sans-serif; fill: #6b7280; text-anchor: middle; }
+    .rootname { font: 600 14px system-ui, sans-serif; fill: #ffffff; text-anchor: middle; }
+    .roottitle { font: 400 11px system-ui, sans-serif; fill: #e0e7ff; text-anchor: middle; }
+  </style>
+
+  <!-- links: ceo -> head-of-product, engineering-lead, growth-lead, sales-lead, customer-success-lead -->
+  <path class="link" d="M620 80 V115 H180 V150" />
+  <path class="link" d="M620 80 V115 H420 V150" />
+  <path class="link" d="M620 80 V115 H660 V150" />
+  <path class="link" d="M620 80 V115 H900 V150" />
+  <path class="link" d="M620 80 V115 H1140 V150" />
+
+  <!-- links: head-of-product -> product-manager, ux-designer -->
+  <path class="link" d="M180 206 V243 H90 V280" />
+  <path class="link" d="M180 206 V243 H290 V280" />
+  <!-- links: growth-lead -> content-marketer, lifecycle-marketer -->
+  <path class="link" d="M660 206 V243 H570 V280" />
+  <path class="link" d="M660 206 V243 H750 V280" />
+
+  <!-- row 1: ceo -->
+  <rect class="root" x="545" y="24" width="150" height="56" rx="10" />
+  <text class="rootname" x="620" y="48">Priya Malhotra</text>
+  <text class="roottitle" x="620" y="66">CEO &amp; Founder</text>
+
+  <!-- row 2: head-of-product, engineering-lead, growth-lead, sales-lead, customer-success-lead -->
+  <rect class="node" x="105" y="150" width="150" height="56" rx="10" />
+  <text class="name" x="180" y="174">Theo Brandt</text>
+  <text class="title" x="180" y="192">Head of Product</text>
+
+  <rect class="node" x="345" y="150" width="150" height="56" rx="10" />
+  <text class="name" x="420" y="174">Ravi Chandra</text>
+  <text class="title" x="420" y="192">Engineering Lead</text>
+
+  <rect class="node" x="585" y="150" width="150" height="56" rx="10" />
+  <text class="name" x="660" y="174">Sofia Marin</text>
+  <text class="title" x="660" y="192">Head of Growth</text>
+
+  <rect class="node" x="825" y="150" width="150" height="56" rx="10" />
+  <text class="name" x="900" y="174">Darius Webb</text>
+  <text class="title" x="900" y="192">Head of Sales</text>
+
+  <rect class="node" x="1065" y="150" width="150" height="56" rx="10" />
+  <text class="name" x="1140" y="174">Lena Castillo</text>
+  <text class="title" x="1140" y="192">Customer Success</text>
+
+  <!-- row 3: product-manager, ux-designer, content-marketer, lifecycle-marketer -->
+  <rect class="node" x="15" y="280" width="150" height="56" rx="10" />
+  <text class="name" x="90" y="304">Amara Okoye</text>
+  <text class="title" x="90" y="322">Product Manager</text>
+
+  <rect class="node" x="215" y="280" width="150" height="56" rx="10" />
+  <text class="name" x="290" y="304">Noah Feld</text>
+  <text class="title" x="290" y="322">Product Designer</text>
+
+  <rect class="node" x="495" y="280" width="150" height="56" rx="10" />
+  <text class="name" x="570" y="304">Jonah Pierce</text>
+  <text class="title" x="570" y="322">Content Marketer</text>
+
+  <rect class="node" x="675" y="280" width="150" height="56" rx="10" />
+  <text class="name" x="750" y="304">Mina Halvorsen</text>
+  <text class="title" x="750" y="322">Lifecycle Marketer</text>
+</svg>

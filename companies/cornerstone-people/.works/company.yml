@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: people
+  avatarIcon: id-card
+  tags: [hr, people-ops, onboarding, policy]

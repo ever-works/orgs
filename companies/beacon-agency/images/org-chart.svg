@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title>Beacon Agency org chart</title>
+  <g fill="none" stroke="#4f46e5" stroke-width="1.5">
+    <path d="M480 76 V108"/>
+    <path d="M100 108 H860"/>
+    <path d="M100 108 V140"/>
+    <path d="M290 108 V140"/>
+    <path d="M575 108 V140"/>
+    <path d="M860 108 V140"/>
+    <path d="M100 192 V256"/>
+    <path d="M290 192 V256"/>
+    <path d="M575 192 V224"/>
+    <path d="M480 224 H670"/>
+    <path d="M480 224 V256"/>
+    <path d="M670 224 V256"/>
+  </g>
+  <g>
+    <rect x="400" y="24" width="160" height="52" rx="10" fill="#eef2ff" stroke="#4f46e5" stroke-width="1.5"/>
+    <text x="480" y="46" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Marcus Bellamy</text>
+    <text x="480" y="64" text-anchor="middle" font-size="11" fill="#6366f1">Managing Director</text>
+  </g>
+  <g>
+    <rect x="20" y="140" width="160" height="52" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+    <text x="100" y="162" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Priya Raman</text>
+    <text x="100" y="180" text-anchor="middle" font-size="11" fill="#64748b">Account Director</text>
+  </g>
+  <g>
+    <rect x="210" y="140" width="160" height="52" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+    <text x="290" y="162" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Sofia Marchetti</text>
+    <text x="290" y="180" text-anchor="middle" font-size="11" fill="#64748b">Delivery Lead</text>
+  </g>
+  <g>
+    <rect x="495" y="140" width="160" height="52" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+    <text x="575" y="162" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Yara Haddad</text>
+    <text x="575" y="180" text-anchor="middle" font-size="11" fill="#64748b">Creative Lead</text>
+  </g>
+  <g>
+    <rect x="780" y="140" width="160" height="52" rx="10" fill="#ffffff" stroke="#4f46e5" stroke-width="1.2"/>
+    <text x="860" y="162" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Rosa Delgado</text>
+    <text x="860" y="180" text-anchor="middle" font-size="11" fill="#64748b">Media Buyer</text>
+  </g>
+  <g>
+    <rect x="20" y="256" width="160" height="52" rx="10" fill="#ffffff" stroke="#c7d2fe" stroke-width="1.2"/>
+    <text x="100" y="278" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Daniel Okonkwo</text>
+    <text x="100" y="296" text-anchor="middle" font-size="11" fill="#64748b">Account Manager</text>
+  </g>
+  <g>
+    <rect x="210" y="256" width="160" height="52" rx="10" fill="#ffffff" stroke="#c7d2fe" stroke-width="1.2"/>
+    <text x="290" y="278" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Liam Novak</text>
+    <text x="290" y="296" text-anchor="middle" font-size="11" fill="#64748b">Project Coordinator</text>
+  </g>
+  <g>
+    <rect x="400" y="256" width="160" height="52" rx="10" fill="#ffffff" stroke="#c7d2fe" stroke-width="1.2"/>
+    <text x="480" y="278" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Theo Lindgren</text>
+    <text x="480" y="296" text-anchor="middle" font-size="11" fill="#64748b">Copywriter</text>
+  </g>
+  <g>
+    <rect x="590" y="256" width="160" height="52" rx="10" fill="#ffffff" stroke="#c7d2fe" stroke-width="1.2"/>
+    <text x="670" y="278" text-anchor="middle" font-size="13" font-weight="600" fill="#1e1b4b">Mei Tanaka</text>
+    <text x="670" y="296" text-anchor="middle" font-size="11" fill="#64748b">Designer</text>
+  </g>
+</svg>

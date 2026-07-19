@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: agency
+  avatarIcon: handshake
+  tags: [agency, client-services, accounts, delivery]

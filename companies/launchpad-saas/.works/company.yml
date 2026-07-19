@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: business
+  avatarIcon: rocket
+  tags: [saas, startup, product-led, b2b]

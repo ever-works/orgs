@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: support
+  avatarIcon: life-buoy
+  tags: [customer-success, support, retention, help-center]

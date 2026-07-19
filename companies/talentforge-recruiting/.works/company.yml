@@ -1,0 +1,5 @@
+schema: everworks/v1
+catalog:
+  category: people
+  avatarIcon: users-round
+  tags: [recruiting, talent, hiring, sourcing]

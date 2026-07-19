@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 360" role="img" aria-label="Loyalty Desk org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; }
+    .link { fill: none; stroke: #4f46e5; stroke-width: 1.5; stroke-opacity: 0.55; }
+    .name { font: 600 13px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #111827; text-anchor: middle; }
+    .role { font: 400 10px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #6b7280; text-anchor: middle; }
+  </style>
+
+  <!-- connectors: root to four direct reports -->
+  <path class="link" d="M540,76 V113 H120 V150" />
+  <path class="link" d="M540,76 V113 H438 V150" />
+  <path class="link" d="M540,76 V113 H740 V150" />
+  <path class="link" d="M540,76 V113 H950 V150" />
+  <!-- csm-lead to csm -->
+  <path class="link" d="M120,206 V280" />
+  <!-- support-lead to support-agent and knowledge-lead -->
+  <path class="link" d="M438,206 V243 H340 V280" />
+  <path class="link" d="M438,206 V243 H536 V280" />
+
+  <!-- head-of-cx (root) -->
+  <rect class="node" x="440" y="20" width="200" height="56" rx="10" />
+  <text class="name" x="540" y="44">Priya Ravel</text>
+  <text class="role" x="540" y="62">Head of Customer Experience</text>
+
+  <!-- csm-lead -->
+  <rect class="node" x="42" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="120" y="174">Tomas Vega</text>
+  <text class="role" x="120" y="192">Customer Success Lead</text>
+
+  <!-- support-lead -->
+  <rect class="node" x="360" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="438" y="174">Rachel Nkemdi</text>
+  <text class="role" x="438" y="192">Support Lead</text>
+
+  <!-- escalation-manager -->
+  <rect class="node" x="662" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="740" y="174">Daniel Okafor</text>
+  <text class="role" x="740" y="192">Escalation Manager</text>
+
+  <!-- retention-analyst -->
+  <rect class="node" x="872" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="950" y="174">Lena Farsi</text>
+  <text class="role" x="950" y="192">Retention Analyst</text>
+
+  <!-- csm -->
+  <rect class="node" x="42" y="280" width="156" height="56" rx="10" />
+  <text class="name" x="120" y="304">Ana Belova</text>
+  <text class="role" x="120" y="322">Customer Success Manager</text>
+
+  <!-- support-agent -->
+  <rect class="node" x="262" y="280" width="156" height="56" rx="10" />
+  <text class="name" x="340" y="304">Kofi Mensah</text>
+  <text class="role" x="340" y="322">Support Agent</text>
+
+  <!-- knowledge-lead -->
+  <rect class="node" x="458" y="280" width="156" height="56" rx="10" />
+  <text class="name" x="536" y="304">Ingrid Solberg</text>
+  <text class="role" x="536" y="322">Knowledge Base Lead</text>
+</svg>

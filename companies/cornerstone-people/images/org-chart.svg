@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 360" role="img" aria-label="Cornerstone People org chart">
+  <style>
+    .node { fill: #ffffff; stroke: #4f46e5; stroke-width: 1.5; }
+    .link { fill: none; stroke: #4f46e5; stroke-width: 1.5; stroke-opacity: 0.55; }
+    .name { font: 600 13px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #111827; text-anchor: middle; }
+    .role { font: 400 10px system-ui, -apple-system, "Segoe UI", sans-serif; fill: #6b7280; text-anchor: middle; }
+  </style>
+
+  <!-- connectors: root to six direct reports -->
+  <path class="link" d="M530,76 V113 H100 V150" />
+  <path class="link" d="M530,76 V113 H272 V150" />
+  <path class="link" d="M530,76 V113 H444 V150" />
+  <path class="link" d="M530,76 V113 H616 V150" />
+  <path class="link" d="M530,76 V113 H788 V150" />
+  <path class="link" d="M530,76 V113 H960 V150" />
+  <!-- onboarding-lead to hr-coordinator -->
+  <path class="link" d="M100,206 V280" />
+
+  <!-- head-of-people (root) -->
+  <rect class="node" x="430" y="20" width="200" height="56" rx="10" />
+  <text class="name" x="530" y="44">Priya Nair</text>
+  <text class="role" x="530" y="62">Head of People</text>
+
+  <!-- onboarding-lead -->
+  <rect class="node" x="22" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="100" y="174">Tomás Herrera</text>
+  <text class="role" x="100" y="192">Onboarding Lead</text>
+
+  <!-- people-partner -->
+  <rect class="node" x="194" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="272" y="174">Ingrid Sørensen</text>
+  <text class="role" x="272" y="192">Senior People Partner</text>
+
+  <!-- policy-lead -->
+  <rect class="node" x="366" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="444" y="174">Dele Okafor</text>
+  <text class="role" x="444" y="192">People Policy Lead</text>
+
+  <!-- performance-lead -->
+  <rect class="node" x="538" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="616" y="174">Rachel Adler</text>
+  <text class="role" x="616" y="192">Performance &amp; Dev Lead</text>
+
+  <!-- comp-analyst -->
+  <rect class="node" x="710" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="788" y="174">Kenji Watanabe</text>
+  <text class="role" x="788" y="192">Compensation Analyst</text>
+
+  <!-- employee-experience-lead -->
+  <rect class="node" x="882" y="150" width="156" height="56" rx="10" />
+  <text class="name" x="960" y="174">Fatima Zahra</text>
+  <text class="role" x="960" y="192">Employee Experience Lead</text>
+
+  <!-- hr-coordinator -->
+  <rect class="node" x="22" y="280" width="156" height="56" rx="10" />
+  <text class="name" x="100" y="304">Nolan Pierce</text>
+  <text class="role" x="100" y="322">People Ops Coordinator</text>
+</svg>
